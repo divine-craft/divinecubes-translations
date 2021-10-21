@@ -16,7 +16,8 @@ jobs:
 
       - name: Render *.jsonnet files
         run: |
-          sh vars/build.sh
+          chmod +x ./vars/build.sh
+          ./vars/build.sh
 
       - name: Add locale output files to Git
         run: |
