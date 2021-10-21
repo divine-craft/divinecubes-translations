@@ -13,6 +13,8 @@ jobs:
 
       - id: setup-jsonnet
         uses: zendesk/setup-jsonnet@v7
+        with:
+          version: v0.17.0
 
       - name: Render *.jsonnet files
         run: |
