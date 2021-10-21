@@ -1,0 +1,44 @@
+name: Production Deploy
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - id: setup-jsonnet
+        uses: zendesk/setup-jsonnet@v1
+
+      - name: Render *.jsonnet files
+        run: |
+          sh vars/build.sh
+
+      - name: Add locale output files to Git
+        run: |
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "Github Actions"
+          git add ./.docker/app && git commit -m " Add locale output files"
+
+      - name: Install werf CLI
+        uses: werf/actions/install@v1.2
+
+      - name: Add Kube Config
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+        run: |
+          mkdir ~/.kube
+          echo "${KUBE_CONFIG}" | base64 --decode > ~/.kube/config
+
+      - name: Run converge
+        run: |
+          source $(werf ci-env github --as-file)
+          werf converge --set-docker-config-json-value=true
+        env:
+          GITHUB_TOKEN: ${{ secrets.CONTAINER_REGISTRY_TOKEN }}
+          WERF_ENV: production
+

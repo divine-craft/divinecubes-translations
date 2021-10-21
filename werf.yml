@@ -1,0 +1,6 @@
+configVersion: 1
+project: divine-cubes-locale-server
+---
+image: app
+dockerfile: Dockerfile
+context: ./.docker/
