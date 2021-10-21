@@ -11,10 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - id: setup-jsonnet
-        uses: zendesk/setup-jsonnet@v7
-        with:
-          version: v0.17.0
+      - name: Setup jrsonnet
+        run: |
+          curl -L -O https://github.com/CertainLach/jrsonnet/releases/download/v0.4.2/jrsonnet-linux-static-amd64
+          mkdir ./bin
+          mv jrsonnet-linux-static-amd64 ./bin/jrsonnet
+          chmod +x ./bin/jrsonnet
+          echo "./bin" >> $GITHUB_PATH
 
       - name: Render *.jsonnet files
         run: |

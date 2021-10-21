@@ -1,7 +1,7 @@
 for server in divinecraft flexmine juliuscraft kanddy village; do
 	mkdir -p .docker/app/$server/src/lang
 	for lang in en ru uk; do
-		jsonnet \
+		jrsonnet \
 			--ext-code=prefixes="import 'vars/prefixes/$lang.jsonnet'" \
 			--ext-code=vars="import 'vars/$server.jsonnet'" \
 			--ext-str=serverName=$server \
