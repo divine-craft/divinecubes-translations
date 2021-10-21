@@ -12,4 +12,4 @@ EXPOSE 8080
 
 COPY ./app /app
 
-ENTRYPOINT ["nginx"]
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
