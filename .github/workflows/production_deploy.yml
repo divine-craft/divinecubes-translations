@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - id: setup-jsonnet
-        uses: zendesk/setup-jsonnet@v1
+        uses: zendesk/setup-jsonnet@v7
 
       - name: Render *.jsonnet files
         run: |
