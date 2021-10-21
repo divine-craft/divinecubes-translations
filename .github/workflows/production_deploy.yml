@@ -4,8 +4,12 @@ on:
   push:
     branches: [ master ]
 
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -13,13 +17,13 @@ jobs:
 
       - name: Setup jrsonnet
         run: |
-          curl -L -O https://github.com/CertainLach/jrsonnet/releases/download/v0.4.2/jrsonnet-linux-static-amd64
+          curl -L -O https://github.com/CertainLach/jrsonnet/releases/latest/download/jrsonnet-linux-static-amd64
           mkdir ./bin
           mv jrsonnet-linux-static-amd64 ./bin/jrsonnet
           chmod +x ./bin/jrsonnet
           echo "./bin" >> $GITHUB_PATH
 
-      - name: Render *.jsonnet files
+      - name: Render jsonnet files
         run: |
           chmod +x ./vars/build.sh
           ./vars/build.sh
