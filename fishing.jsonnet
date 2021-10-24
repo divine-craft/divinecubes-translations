@@ -273,10 +273,10 @@ local vars = std.extVar('vars');
       ru: '§7%d уровень'
   },
   GRAM: {
-      ru: 'g'
+      ru: 'г'
   },
   KILOGRAM: {
-      ru: 'kg'
+      ru: 'кг'
   },
   FISH_SIZE_SMALL: {
       ru: '§aМелкая'
