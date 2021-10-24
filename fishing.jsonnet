@@ -14,7 +14,7 @@ local vars = std.extVar('vars');
       ru: '§fНужно опыта: §e%s'
   },
   BOARD_ONLINE: {
-      ru: '§fОнлайн: §e%d'
+      ru: '§fОнлайн: §e%s'
   },
   LAKE_FIRST: {
       ru: 'Прудик на даче'
@@ -213,7 +213,7 @@ local vars = std.extVar('vars');
       ru: '§aУдочка успешно улучшена!'
   },
   RESULT_NO: {
-      ru: '§снет'
+      ru: '§cнет'
   },
   STATISTIC_MOST_RARE_FISH_NAME: {
       ru: '§eСамая редкая выловленная рыба'
