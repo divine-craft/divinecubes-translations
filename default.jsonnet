@@ -12024,3 +12024,4 @@ local vars = std.extVar('vars');
 + lib.prefixWith('WHOIS_', import 'whois.jsonnet')
 + lib.prefixWith('AUTH_', import 'auth.jsonnet')
 + lib.prefixWith('AIRDROP_', import 'airdrop.jsonnet')
++ lib.prefixWith('FISHING_', import 'fishing.jsonnet')

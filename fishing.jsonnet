@@ -1,0 +1,266 @@
+local vars = std.extVar('vars');
+
+{
+  BOARD_TITLE: {
+    ru: '§b§lFishing',
+  },
+  BOARD_LAKE: {
+      ru: '§fЛокация: §e%s',
+  },
+  BOARD_LEVEL: {
+      ru: '§fУровень: §e%d'
+  },
+  BOARD_EXPERIENCE: {
+      ru: '§fНужно опыта: §e%d'
+  },
+  BOARD_ONLINE: {
+      ru: '§fОнлайн: §e%d'
+  },
+  LAKE_FIRST: {
+      ru: 'Прудик на даче'
+  },
+  LAKE_SECOND: {
+      ru: 'Река Таракановка'
+  },
+  LAKE_THIRD: {
+      ru: 'Лазурное озеро'
+  },
+  LAKE_FOURTH: {
+      ru: 'Сиамский залив'
+  },
+  LAKE_FIFTH: {
+      ru: 'Средиземное море'
+  },
+  LAKE_SIXTH: {
+      ru: 'Атлантический океан'
+  },
+  FISH_1: {
+      ru: 'Плотва'
+  },
+  FISH_2: {
+      ru: 'Судак'
+  },
+  FISH_3: {
+      ru: 'Налим'
+  },
+  FISH_4: {
+      ru: 'Кальмар'
+  },
+  FISH_5: {
+      ru: 'Кефаль'
+  },
+  FISH_6: {
+      ru: 'Скат'
+  },
+  FISH_7: {
+      ru: 'Карась'
+  },
+  FISH_8: {
+      ru: 'Стерлядь'
+  },
+  FISH_9: {
+      ru: 'Язь'
+  },
+  FISH_10: {
+      ru: 'Мурена'
+  },
+  FISH_11: {
+      ru: 'Мармир'
+  },
+  FISH_12: {
+      ru: 'Белая акула'
+  },
+  FISH_13: {
+      ru: 'Окунь'
+  },
+  FISH_14: {
+      ru: 'Сом'
+  },
+  FISH_15: {
+      ru: 'Форель'
+  },
+  FISH_16: {
+      ru: 'Марлин'
+  },
+  FISH_17: {
+      ru: 'Ставрида'
+  },
+  FISH_18: {
+      ru: 'Фугу'
+  },
+  FISH_19: {
+      ru: 'Карп'
+  },
+  FISH_20: {
+      ru: 'Щука'
+  },
+  FISH_21: {
+      ru: 'Лосось'
+  },
+  FISH_22: {
+      ru: 'Барракуда'
+  },
+  FISH_23: {
+      ru: 'Дорада'
+  },
+  FISH_24: {
+      ru: 'Синий кит'
+  },
+  TRASH_1: {
+      ru: 'Старый ботинок'
+  },
+  TRASH_2: {
+      ru: 'Коряга'
+  },
+  TRASH_3: {
+      ru: 'Камень'
+  },
+  TRASH_4: {
+      ru: 'Бутылка'
+  },
+  TRASH_5: {
+      ru: 'Кость'
+  },
+  TRASH_6: {
+      ru: 'Мяч'
+  },
+  TRASH_7: {
+      ru: 'Водоросли'
+  },
+  TRASH_8: {
+      ru: 'Цепь'
+  },
+  INVENTORY_IS_FULL: {
+      ru: '§cВаш инвентарь заполнен!'
+  },
+  PHONE: {
+      ru: '§eТелефон'
+  },
+  MENU_FISH_SELL: {
+      ru: 'Продажа рыбы'
+  },
+  MENU_PHONE: {
+      ru: 'Телефон'
+  },
+  MENU_ROD: {
+      ru: 'Улучшение удочки'
+  },
+  MENU_ROD: {
+      ru: 'Статистика'
+  },
+  FISH_SELL_LORE_HAS_FISH: {
+      ru: [
+        '',
+        '§7У есть вас %d штук(а).',
+        '§aНажмите, чтобы продать.'
+      ]
+  },
+  FISH_SELL_LORE_NO_FISH: {
+      ru: [
+        '',
+        '§cУ вас нет этой рыбы.'
+      ]
+  },
+  FISH_SELL_NO_FISH: {
+      ru: '§cУ вас нет рыбы данного типа для продажи!'
+  },
+  PHONE_MENU_STATISTIC_ITEM_NAME: {
+      ru: '§eСтатистика'
+  },
+  PHONE_MENU_STATISTIC_ITEM_LORE: {
+      ru: [
+         '§aНажмите, чтобы посмотреть свою статистику.'
+      ]
+  },
+  PHONE_MENU_SELL_ITEM_NAME: {
+       ru: '§eПродажа рыбы'
+  },
+  PHONE_MENU_SELL_ITEM_LORE: {
+       ru: [
+          '§aНажмите, чтобы открыть меню продажи рыбы.'
+       ]
+  },
+  PHONE_MENU_ROD_ITEM_NAME: {
+      ru: '§eУлучшение удочки'
+  },
+  PHONE_MENU_ROD_ITEM_LORE: {
+      ru: [
+         '§aНажмите, чтобы посмотреть доступное улучшение.'
+      ]
+  },
+  ROD_MAX_LEVEL_NAME: {
+     ru: '§eМаксимальный уровень!'
+  },
+  ROD_MAX_LEVEL_LORE: {
+      ru: [
+         '§7Вы достигли максимального уровня удочки.'
+      ]
+  },
+  ROD_ITEM_UPGRADE_LORE: {
+     ru: [
+        '',
+        '§7Цена покупки: §a%d$',
+        '§7Необходим %d уровень игрока'
+     ]
+  },
+  CANT_BUY_THIS_ROD: {
+      ru: '§cВы не можете купить удочку данного уровня!'
+  },
+  CANT_BUY_THIS_ROD_NO_MONEY: {
+      ru: '§сУ вас недостаточно денег для улучшения удочки!'
+  },
+  ROD_SUCCESSFULLY_UPGRADED: {
+      ru: '§aУдочка успешно улучшена!'
+  },
+  RESULT_NO: {
+      ru: '§снет'
+  },
+  STATISTIC_MOST_RARE_FISH_NAME: {
+      ru: '§eСамая редкая выловленная рыба'
+  },
+  STATISTIC_MOST_RARE_FISH_LORE: {
+      ru: '§7Ваш результат - %ы'
+  },
+  STATISTIC_MOST_HEAVIEST_FISH_NAME: {
+      ru: '§eСамая увесистая выловленная рыба'
+  },
+  STATISTIC_MOST_HEAVIEST_FISH_LORE: {
+      ru: '§7Ваш результат - %s'
+  },
+  STATISTIC_MOST_EXPENSIVE_FISH_NAME: {
+      ru: '§eСамая дорогая рыба'
+  },
+  STATISTIC_MOST_EXPENSIVE_FISH_LORE: {
+      ru: '§7Ваш результат - %s'
+  },
+  STATISTIC_MOST_LAKE_NAME: {
+      ru: '§eСамое любимое озеро'
+  },
+  STATISTIC_MOST_LAKE_LORE: {
+      ru: '§7Ваш результат - %s'
+  },
+  STATISTIC_MOST_ROD_NAME: {
+      ru: '§eСамая любимая удочка'
+  },
+  STATISTIC_MOST_ROD_LORE: {
+      ru: '§7Ваш результат - %s'
+  },
+  ROD_1: {
+      ru: 'Дедушкина удочка'
+  },
+  ROD_2: {
+      ru: 'Удочка с AliExpress'
+  },
+  ROD_3: {
+      ru: 'Любительская удочка'
+  },
+  ROD_4: {
+      ru: 'Профессиональная удочка'
+  },
+  ROD_5: {
+      ru: 'Карбоновое удилище'
+  },
+  ROD_6: {
+      ru: 'Эксклюзивный композитный спиннинг'
+  }
+}
