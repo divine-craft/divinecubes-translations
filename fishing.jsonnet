@@ -268,5 +268,26 @@ local vars = std.extVar('vars');
   },
   LAKE_CLOSED: {
       ru: '§c§lЗАБЛОКИРОВАНО'
+  },
+  FISH_ITEM_LEVEL_FORMAT: {
+      ru: '§7%d уровень'
+  },
+  GRAM: {
+      ru: 'g'
+  },
+  KILOGRAM: {
+      ru: 'kg'
+  },
+  FISH_SIZE_SMALL: {
+      ru: '§aМелкая'
+  },
+  FISH_SIZE_MEDIUM: {
+      ru: '§6Средняя'
+  },
+  FISH_SIZE_BIG: {
+      ru: '§cБольшая'
+  },
+  FISH_SIZE_HUGE: {
+      ru: '§5ОГРОМНАЯ'
   }
 }
