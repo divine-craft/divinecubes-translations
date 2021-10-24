@@ -11,7 +11,7 @@ local vars = std.extVar('vars');
       ru: '§fУровень: §e%d'
   },
   BOARD_EXPERIENCE: {
-      ru: '§fНужно опыта: §e%d'
+      ru: '§fНужно опыта: §e%s'
   },
   BOARD_ONLINE: {
       ru: '§fОнлайн: §e%d'
@@ -145,7 +145,7 @@ local vars = std.extVar('vars');
   MENU_ROD: {
       ru: 'Улучшение удочки'
   },
-  MENU_ROD: {
+  MENU_STATISTIC: {
       ru: 'Статистика'
   },
   FISH_SELL_LORE_HAS_FISH: {
@@ -219,7 +219,7 @@ local vars = std.extVar('vars');
       ru: '§eСамая редкая выловленная рыба'
   },
   STATISTIC_MOST_RARE_FISH_LORE: {
-      ru: '§7Ваш результат - %ы'
+      ru: '§7Ваш результат - %s'
   },
   STATISTIC_MOST_HEAVIEST_FISH_NAME: {
       ru: '§eСамая увесистая выловленная рыба'
@@ -262,5 +262,11 @@ local vars = std.extVar('vars');
   },
   ROD_6: {
       ru: 'Эксклюзивный композитный спиннинг'
+  },
+  LAKE_OPENED: {
+      ru: '§a§lОТКРЫТО'
+  },
+  LAKE_CLOSED: {
+      ru: '§c§lЗАБЛОКИРОВАНО'
   }
 }
