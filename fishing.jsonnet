@@ -269,6 +269,9 @@ local vars = std.extVar('vars');
   LAKE_CLOSED: {
       ru: '§c§lЗАБЛОКИРОВАНО'
   },
+  LAKE_LEVEL_FORMAT: {
+      ru: '§7%d уровень'
+  },
   FISH_ITEM_LEVEL_FORMAT: {
       ru: '§7%d уровень'
   },
