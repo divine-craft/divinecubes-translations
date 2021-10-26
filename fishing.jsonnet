@@ -354,7 +354,7 @@ local vars = std.extVar('vars');
   REMOVE_TRASH_ITEM_NAME: {
       ru: '§eВыбросить мусор'
   },
-  REMOVE_TRASH_ITEM_NAME: {
+  REMOVE_TRASH_ITEM_LORE: {
       ru: [
          '§7Нажмите, чтобы выбросить',
          '§7все выбранные предметы'
