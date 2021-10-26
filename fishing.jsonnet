@@ -317,7 +317,7 @@ local vars = std.extVar('vars');
   BUY_LAKE_LORE: {
       ru: [
          '§7Для покупки необходим %d уровень.',
-         '§7Цена: §a%d$',
+         '§7Цена: §a%s$',
          '',
          '§aНажмите, чтобы открыть локацию.'
       ]
@@ -333,5 +333,8 @@ local vars = std.extVar('vars');
   },
   LAKE_SUCCESSFULLY_OPENED: {
       ru: '§aВы успешно открыли озеро §e%s'
+  },
+  ONLY_DONATER: {
+      ru: '§aДоступно только донатерам'
   }
 }
