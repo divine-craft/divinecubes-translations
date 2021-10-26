@@ -292,5 +292,46 @@ local vars = std.extVar('vars');
   },
   FISH_SIZE_HUGE: {
       ru: '§5ОГРОМНАЯ'
+  },
+  CHANGE_EXP: {
+      ru: '§a+%d опыт(а)'
+  },
+  LEVEL_UP: {
+      ru: '§aПоздравляем, вы достигли %d уровня!'
+  },
+  CHANGE_BALANCE_POSITIVE: {
+      ru: '§a+%d$'
+  },
+  CHANGE_BALANCE_NEGATIVE: {
+      ru: '§c%d$'
+  },
+  NEW_RECORD_MOST_RARE_FISH: {
+      ru: '§aПоздравляем, Вы обновили свой рекорд самой редкой рыбы!'
+  },
+  NEW_RECORD_MOST_HEAVIEST_FISH: {
+      ru: '§aПоздравляем, Вы обновили свой рекорд самой увесистой рыбы!'
+  },
+  NEW_RECORD_MOST_EXPENSIVE_FISH: {
+      ru: '§aПоздравляем, Вы обновили свой рекорд самой дорогой рыбы!'
+  },
+  BUY_LAKE_LORE: {
+      ru: [
+         '§7Для покупки необходим %d уровень.',
+         '§7Цена: §a%d$',
+         '',
+         '§aНажмите, чтобы открыть локацию.'
+      ]
+  },
+  CANT_BUY_LAKE_BECAUSE_NO_PREVIOUS: {
+      ru: '§cВы не можете открыть эту локацию, потому что не открыли предыдущую'
+  },
+  CANT_BUY_LAKE_BECAUSE_LOW_LEVEL: {
+      ru: '§cВы не можете открыть эту локацию, потому что ваш уровень меньше необходимого'
+  },
+  CANT_BUY_LAKE_BECAUSE_NO_MONEY: {
+      ru: '§cВы не можете открыть эту локацию, потому что у вас недостаточно денег'
+  },
+  LAKE_SUCCESSFULLY_OPENED: {
+      ru: '§aВы успешно открыли озеро §e%s'
   }
 }
