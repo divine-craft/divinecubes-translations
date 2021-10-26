@@ -210,7 +210,7 @@ local vars = std.extVar('vars');
   ROD_ITEM_UPGRADE_LORE: {
      ru: [
         '',
-        '§7Цена покупки: §a%d$',
+        '§7Цена покупки: §a%s$',
         '§7Необходим %d уровень игрока'
      ]
   },
