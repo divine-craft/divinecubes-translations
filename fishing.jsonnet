@@ -359,5 +359,17 @@ local vars = std.extVar('vars');
          '§7Нажмите, чтобы выбросить',
          '§7все выбранные предметы'
       ]
+  },
+  SELL_ROD_NPC: {
+      ru: '§eПРОДАВЕЦ УДОЧЕК'
+  },
+  SELL_FISH_NPC: {
+      ru: '§eСКУПЩИК РЫБЫ'
+  },
+  SELL_TRASH_NPC: {
+      ru: '§eСКУПЩИК МУСОРА'
+  },
+  STATISTIC_NPC: {
+      ru: '§eТВОЯ СТАТИСТИКА'
   }
 }
