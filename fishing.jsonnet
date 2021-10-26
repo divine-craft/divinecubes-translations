@@ -148,6 +148,9 @@ local vars = std.extVar('vars');
   MENU_STATISTIC: {
       ru: 'Статистика'
   },
+  MENU_TRASH: {
+      ru: 'Мусорка'
+  },
   FISH_SELL_LORE_HAS_FISH: {
       ru: [
         '',
@@ -187,6 +190,14 @@ local vars = std.extVar('vars');
       ru: [
          '§aНажмите, чтобы посмотреть доступное улучшение.'
       ]
+  },
+  PHONE_MENU_TRASH_ITEM_NAME: {
+     ru: '§eМусорка'
+  },
+  PHONE_MENU_TRASH_ITEM_LORE: {
+     ru: [
+        '§aНажмите, чтобы открыть мусорку.'
+     ]
   },
   ROD_MAX_LEVEL_NAME: {
      ru: '§eМаксимальный уровень!'
@@ -336,5 +347,17 @@ local vars = std.extVar('vars');
   },
   ONLY_DONATER: {
       ru: '§aДоступно только донатерам'
+  },
+  TRASH_REMOVED: {
+      ru: '§aМусор успешно удален!'
+  },
+  REMOVE_TRASH_ITEM_NAME: {
+      ru: '§eВыбросить мусор'
+  },
+  REMOVE_TRASH_ITEM_NAME: {
+      ru: [
+         '§7Нажмите, чтобы выбросить',
+         '§7все выбранные предметы'
+      ]
   }
 }
