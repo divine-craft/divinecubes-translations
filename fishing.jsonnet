@@ -371,5 +371,8 @@ local vars = std.extVar('vars');
   },
   STATISTIC_NPC: {
       ru: '§eТВОЯ СТАТИСТИКА'
+  },
+  PUBLIC_PLACE_NPC: {
+      ru: '§eВЕРНУТЬСЯ В ПУБЛИЧНОЕ МЕСТО'
   }
 }
