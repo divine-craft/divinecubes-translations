@@ -311,10 +311,10 @@ local vars = std.extVar('vars');
       ru: '§aПоздравляем, вы достигли %d уровня!'
   },
   CHANGE_BALANCE_POSITIVE: {
-      ru: '§a+%d$'
+      ru: '§a+%s$'
   },
   CHANGE_BALANCE_NEGATIVE: {
-      ru: '§c%d$'
+      ru: '§c%s$'
   },
   NEW_RECORD_MOST_RARE_FISH: {
       ru: '§aПоздравляем, Вы обновили свой рекорд самой редкой рыбы!'
