@@ -13,6 +13,9 @@ local vars = std.extVar('vars');
   BOARD_EXPERIENCE: {
       ru: '§fНужно опыта: §e%s'
   },
+  BOARD_BALANCE: {
+      ru: '§fБаланс: §e%s$'
+  },
   BOARD_ONLINE: {
       ru: '§fОнлайн: §e%s'
   },
