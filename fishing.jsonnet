@@ -296,16 +296,16 @@ local vars = std.extVar('vars');
       ru: 'кг'
   },
   FISH_SIZE_SMALL: {
-      ru: '§aМелкая'
+      ru: '§aМелкая рыбка'
   },
   FISH_SIZE_MEDIUM: {
-      ru: '§6Средняя'
+      ru: '§6Средняя рыбеха'
   },
   FISH_SIZE_BIG: {
-      ru: '§cБольшая'
+      ru: '§cКрупная рыба'
   },
   FISH_SIZE_HUGE: {
-      ru: '§5ОГРОМНАЯ'
+      ru: '§5Огромная рыбина'
   },
   CHANGE_EXP: {
       ru: '§a+%d опыт(а)'
