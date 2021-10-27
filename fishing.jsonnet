@@ -5,7 +5,7 @@ local vars = std.extVar('vars');
     ru: '§b§lFishing',
   },
   BOARD_LAKE: {
-      ru: '§fЛокация: §e%s',
+      ru: '§fЛокация: §a%s',
   },
   BOARD_LEVEL: {
       ru: '§fУровень: §e%d'
@@ -18,6 +18,9 @@ local vars = std.extVar('vars');
   },
   BOARD_ONLINE: {
       ru: '§fОнлайн: §e%s'
+  },
+  BOARD_IP: {
+      ru: '§2§lvillagemc.net'
   },
   LAKE_FIRST: {
       ru: 'Прудик на даче'
@@ -448,4 +451,12 @@ local vars = std.extVar('vars');
   UNHIDE_PLAYERS: {
       ru: '§aВы успешно показали игроков'
   },
+  MENU_ITEM_BACK_NAME: {
+      ru: '§eВернуться назад'
+  },
+  MENU_ITEM_BACK_LORE: {
+      ru: [
+         '§7Нажмите, чтобы вернуться назад'
+      ]
+  }
 }
