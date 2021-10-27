@@ -394,5 +394,49 @@ local vars = std.extVar('vars');
   },
   HOLO_TOP_MAIN: {
       ru: '§7Нажмите, чтобы сменить топ'
+  },
+  LURE_MAX_LEVEL_NAME: {
+      ru: '§eПриманка'
+  },
+  LURE_MAX_LEVEL_LORE: {
+      ru: [
+         '§aВы достигли максимального уровня прокачки.'
+      ]
+  },
+  LUCK_MAX_LEVEL_NAME: {
+      ru: '§eМорская удача'
+  },
+  LUCK_MAX_LEVEL_LORE: {
+      ru: [
+         '§aВы достигли максимального уровня прокачки.'
+      ]
+  },
+  LURE_ITEM_NAME: {
+      ru: '§eПриманка'
+  },
+  LURE_ITEM_LORE: {
+      ru: [
+         '§7Уровень: §a%d',
+         '§7Цена: §a%s$',
+         '',
+         '§aНажмите, чтобы купить это зачарование.'
+      ]
+  },
+  LUCK_ITEM_NAME: {
+      ru: '§eМорская удача'
+  },
+  LUCK_ITEM_LORE: {
+      ru: [
+         '§7Уровень: §a%d',
+         '§7Цена: §a%s$',
+         '',
+         '§aНажмите, чтобы купить это зачарование.'
+      ]
+  },
+  CANT_BUY_THIS_ENCHANT_NO_MONEY: {
+      ru: '§cВы не можете купить это зачарование: у вас недостаточно денег.'
+  },
+  ENCHANT_SUCCESSFULLY_UPGRADED: {
+      ru: '§aЗачарование успешно приобретено!'
   }
 }
