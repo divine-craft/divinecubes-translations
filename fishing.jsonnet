@@ -438,5 +438,14 @@ local vars = std.extVar('vars');
   },
   ENCHANT_SUCCESSFULLY_UPGRADED: {
       ru: '§aЗачарование успешно приобретено!'
-  }
+  },
+  VANISH: {
+      ru: '§eСкрыть/показать игроков'
+  },
+  HIDE_PLAYERS: {
+      ru: '§aВы успешно скрыли игроков'
+  },
+  UNHIDE_PLAYERS: {
+      ru: '§aВы успешно показали игроков'
+  },
 }
