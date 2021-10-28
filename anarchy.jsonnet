@@ -55,6 +55,9 @@ local vars = std.extVar('vars');
   DEATH_FRIEND: {
     ru: vars.prefixAnarchy + ' §fВаш друг %s §fпогиб в мире §7%s',
   },
+  DEATH_YOU: {
+    ru: vars.prefixAnarchy + ' §fВы умерли на сервере §7%s §fв мире §7%s §fНа координатах §7%s %s %s',
+  },
   DONATE_SHOP_LORE: {
     ru: [
       ' ',
@@ -141,6 +144,9 @@ local vars = std.extVar('vars');
   POTIONS_SHOP_NAME: {
     ru: '§eУникальные зелья',
   },
+  RARESHOP_TNT_GUI_NAME: {
+    ru: 'Магазин мощного динамита',
+  },
   RARESHOP_ARROWS_GUI_NAME: {
     ru: 'Магазин стрел',
   },
@@ -207,6 +213,18 @@ local vars = std.extVar('vars');
   },
   STUFF_SHOP_NAME: {
     ru: 'Магазин необычных вещей',
+  },
+  TNT_SHOP_LORE: {
+    ru: [
+        ' ',
+        '§7Уничтожительня вызрывная сила',
+        '§7Аннигилируй своих врагов',
+        ' ',
+        '§a▸ Нажмите, чтобы открыть!',
+    ]
+  },
+  TNT_SHOP_NAME: {
+    ru: '§eМагазин мощного динамита'
   },
   TPA: {
     ru: vars.prefixAnarchy + ' §fНа режиме §cнет телепортаций §fк игроку. Найти друга можно по координатам, а также с помощью §7/compass <координата x> <координата z> §f(если у вас есть компас)',
