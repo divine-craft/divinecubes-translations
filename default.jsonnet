@@ -2231,12 +2231,12 @@ local vars = std.extVar('vars');
   DRAIN_TNT_NAME: {
     ru: 'Осушающий тнт',
   },
-  EMPOVERED_TNT_LORE: {
+  EMPOWERED_TNT_LORE: {
     ru: [
       ' ',
     ]
   },
-  EMPOVERED_TNT_NAME: {
+  EMPOWERED_TNT_NAME: {
     ru: 'Усиленный тнт',
   },
   POISONING_TNT_LORE: {
