@@ -1,4 +1,4 @@
-for server in divinecraft flexmine juliuscraft kanddy village; do
+for server in divinecraft flexmine julius kanddy village; do
 	mkdir -p .docker/app/$server/src/lang
 	for lang in en ru uk; do
 		jrsonnet \
