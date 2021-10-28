@@ -30,6 +30,9 @@ local vars = std.extVar('vars');
   DISABLE_REGION: {
     ru: vars.prefixAnarchy + ' §fВы не можете заприватить территорию §7ящика с припасами',
   },
+  EMPTY: {
+    ru: vars.prefixAirdrop + ' §fЭтот ящик оказался пустой',
+  },
   NEXT_SPAWN: {
     ru: vars.prefixAirdrop + ' §fСледующий §7Ящик с припасами §fупадет в обычном мире через §7%s',
   },
