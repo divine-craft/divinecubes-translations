@@ -6,6 +6,7 @@
     auth: 'Авторизация',
     balance: 'Баланс',
     claim: 'Приват',
+    home: 'Home',
     creative: 'Creative',
     discord: 'Discord',
     donatechat: 'Чат донатеров',
