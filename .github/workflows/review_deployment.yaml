@@ -1,0 +1,78 @@
+name: Review Deployment
+
+on:
+  pull_request:
+    types: [labeled]
+
+jobs:
+
+  labels:
+    name: Label taking off
+    if: github.event.label.name == 'review_start'
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Take off label
+        uses: actions/github-script@v1
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: >
+            github.issues.removeLabel({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: '${{ github.event.label.name }}'
+            })
+
+  converge:
+    name: Converge
+    if: github.event.label.name == 'review_start'
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Define environment URL
+        run: |
+          pr_id=${{ github.event.number }}
+          github_repository_id=$(echo ${GITHUB_REPOSITORY} | sed -r s/[^a-zA-Z0-9]+/-/g | sed -r s/^-+\|-+$//g | tr A-Z a-z)
+          echo WERF_SET_ENV_URL=global.env_url=http://${github_repository_id}-${pr_id}.kube.DOMAIN >> $GITHUB_ENV
+
+      - name: Setup jrsonnet
+        run: |
+            curl -L -O https://github.com/CertainLach/jrsonnet/releases/latest/download/jrsonnet-linux-static-amd64
+            mkdir ./bin
+            mv jrsonnet-linux-static-amd64 ./bin/jrsonnet
+            chmod +x ./bin/jrsonnet
+            echo "./bin" >> $GITHUB_PATH
+
+      - name: Render jsonnet files
+        run: ./vars/build.sh
+
+      - name: Add locale output files to Git
+        run: |
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "Github Actions"
+          git add ./.docker/app && git commit -m " Add locale output files"
+
+
+      - name: Install werf CLI
+        uses: werf/actions/install@v1.2
+
+      - name: Add Kube Config
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+        run: |
+          mkdir ~/.kube
+          echo "${KUBE_CONFIG}" | base64 --decode > ~/.kube/config
+
+      - name: Run converge
+        run: |
+          source $(werf ci-env github --as-file)
+          werf converge --set-docker-config-json-value=true
+        env:
+          GITHUB_TOKEN: ${{ secrets.PACKAGE_REGISTRY_DELETE_TOKEN }}
+          WERF_ENV: review-${{ github.event.number }}
