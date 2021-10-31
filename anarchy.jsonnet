@@ -279,6 +279,9 @@ local vars = std.extVar('vars');
   },
   BOSS_NPC_NAME: {
     ru: '§a§lТЕЛЕПОРТАЦИЯ К БОССУ'
+  },
+  BOSS_POSITION: {
+    ru: '§eТелепорт к боссу находится на координатах §a%d %d %d§e!'
   }
 }
 
