@@ -231,10 +231,7 @@ local vars = std.extVar('vars');
     ],
   },
   HELP_MULTIPLIER_FORMAT: {
-    ru: '§8▪  §7- §f%s'
-  },
-  HELP_SCAVENGER_FORMAT: {
-    ru: '  %s §7и выше - §f%s'
+    ru: '§8▪ %s §7- §f%s'
   },
   HOLOGRAM_AIRDROP: {
     ru: [
