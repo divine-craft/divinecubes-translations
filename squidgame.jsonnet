@@ -11,6 +11,12 @@
      DOLL_STAGE_TITLE: {
         ru: '§6Игра №1',
      },
+     PVP_STAGE_SUBTITLE: {
+        ru: '§7Используйте лук для убийства игроков!',
+     },
+     PVP_STAGE_TITLE: {
+        ru: '§cРежим PvP активирован',
+     },
      STAGE_END_TIMER: {
         ru: '§fРаунд закончится через §a%s',
      },
