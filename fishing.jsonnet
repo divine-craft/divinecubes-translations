@@ -20,7 +20,7 @@ local vars = std.extVar('vars');
       ru: '§fОнлайн: §e%s'
   },
   BOARD_IP: {
-      ru: '§2§lvillagemc.net'
+      ru: vars.server
   },
   LAKE_FIRST: {
       ru: 'Прудик на даче'
