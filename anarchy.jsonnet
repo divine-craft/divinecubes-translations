@@ -231,6 +231,9 @@ local vars = std.extVar('vars');
   HOLOGRAM_AIRDROP_WAIT: {
     ru: '§cВычисляем время до падения...',
   },
+  HOLOGRAM_AIRDROP_SPAWNED: {
+    ru: '§7Ящик с припасами §aлежит в обычном мире',
+  },
   HOLOGRAM_REGIONS: {
     ru: [
       '§bВНИМАНИЕ! §fРегионы, чьи владельцы',
