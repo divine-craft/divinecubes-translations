@@ -10,13 +10,13 @@ local vars = std.extVar('vars');
     ],
   },
   APPLY_KEYS: {
-    ru: '§fКлючи %s',
+    ru: '§fКлючи %s %s',
   },
   APPLY_LASTCRAFT_BOOK: {
     ru: '§fКнига с зачарованием §7%s',
   },
   APPLY_MONEY: {
-    ru: '§fМонеты',
+    ru: '§fМонеты %s',
   },
   APPLY_REGION_EFFECT: {
     ru: '§fЭффект для регионов §a%s',
