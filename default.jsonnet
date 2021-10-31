@@ -10179,39 +10179,6 @@ local vars = std.extVar('vars');
   SQUID_GAME: {
     ru: 'Игра в кальмара',
   },
-  SQUID_GAME_DOLL_LOOKING: {
-    ru: '§cБежать нельзя!',
-  },
-  SQUID_GAME_DOLL_NOT_LOOKING: {
-    ru: '§a§lБегите!',
-  },
-  SQUID_GAME_DOLL_STAGE_SUBTITLE: {
-    ru: '§7Тише едешь - дальше будешь',
-  },
-  SQUID_GAME_DOLL_STAGE_TITLE: {
-    ru: '§6Игра №1',
-  },
-  SQUID_GAME_END_TIMER: {
-    ru: '§fИгра закончится через §a%s',
-  },
-  SQUID_GAME_GLASS_STAGE_SUBTITLE: {
-    ru: '§7Не попадитесь на хрупкое стекло!',
-  },
-  SQUID_GAME_GLASS_STAGE_TITLE: {
-    ru: '§6Игра №2',
-  },
-  SQUID_GAME_OVER_TITLE: {
-    ru: '§cВы проиграли',
-  },
-  SQUID_GAME_PLAYER_ELIMINATED: {
-    ru: '§fИгрок %s §fвыбыл из игры',
-  },
-  SQUID_GAME_PLAYER_PASSED: {
-    ru: '§fИгрок §a%s §fпрошёл все игры и победил!',
-  },
-  SQUID_GAME_SOLO_TYPE: {
-    ru: '§eSquid Game',
-  },
   STACKER_ERROR_ITEM: {
     ru: '§cУ вас недостаточно еды для кормления',
   },
@@ -11821,3 +11788,4 @@ local vars = std.extVar('vars');
 + lib.prefixWith('ITEMS_LOBBY_HALLOWEEN_', import 'halloween.jsonnet')
 + lib.prefixWith('FISHING_', import 'fishing.jsonnet')
 + lib.prefixWith('GAMEMENU_', import 'gameMenu.jsonnet')
++ lib.prefixWith('SQUID_GAME_', import 'squidgame.jsonnet')
