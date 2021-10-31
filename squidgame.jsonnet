@@ -11,8 +11,8 @@
      DOLL_STAGE_TITLE: {
         ru: '§6Игра №1',
      },
-     END_TIMER: {
-        ru: '§fИгра закончится через §a%s',
+     STAGE_END_TIMER: {
+        ru: '§fРаунд закончится через §a%s',
      },
      GLASS_STAGE_SUBTITLE: {
         ru: '§7Не попадитесь на хрупкое стекло!',
