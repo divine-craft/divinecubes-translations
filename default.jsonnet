@@ -364,10 +364,10 @@ local vars = std.extVar('vars');
     ru: '§eКомандный режим',
   },
   BED_BROKEN: {
-    ru: vars.prefixHome + '§cКровать отсутствует или была уничтожена',
+    ru: vars.prefixHome + ' §cКровать отсутствует или была уничтожена',
   },
   BED_WAIT: {
-    ru: vars.prefixHome + '§6Ищем Вашу кровать, не выходите с сервера!',
+    ru: vars.prefixHome + ' §fИщем Вашу кровать, не выходите с сервера!',
   },
   BEEF: {
     ru: 'Говядина',
