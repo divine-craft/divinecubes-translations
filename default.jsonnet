@@ -57,12 +57,6 @@ local vars = std.extVar('vars');
   ADMIN_LICENSE_OFF: {
     ru: vars.prefixAuth + ' §fВход по лицензии был отключен у игрока §e%s',
   },
-  ADMIN_NAME: {
-    ru: '§4Админ',
-  },
-  ADMIN_PREFIX: {
-    ru: '§4§lADMIN §4',
-  },
   ADVENTURE_MODE: {
     ru: 'Приключенческий',
   },
@@ -1180,12 +1174,6 @@ local vars = std.extVar('vars');
   BUILDER_ITEM_BOX_KIT: {
     ru: 'Строитель',
   },
-  BUILDER_NAME: {
-    ru: '§3Строитель',
-  },
-  BUILDER_PREFIX: {
-    ru: '§3§lBUILDER §3',
-  },
   BUNGEE_ALREADY_ONLINE: {
     ru: '§cДанный игрок уже на сервере!',
   },
@@ -1749,42 +1737,6 @@ local vars = std.extVar('vars');
       '§7дорогой привилегии и многих плюшек',
     ],
   },
-  COMPOT_NAME: {
-    _divinecraft: {
-      ru: '§d§lDIVINE',
-    },
-    _fixmine: {
-      ru: '§c§lJULIUS',
-    },
-    _flexmine: {
-      ru: '§3§lFLEX',
-    },
-    _julius: {
-      ru: '§c§lJULIUS',
-    },
-    _kanddy: {
-      ru: '§c§lCANDY',
-    },
-    ru: '§c§lVILLAGER',
-  },
-  COMPOT_PREFIX: {
-    _divinecraft: {
-      ru: '§d§lDIVINE §c',
-    },
-    _fixmine: {
-      ru: '§c§lJULIUS §c',
-    },
-    _flexmine: {
-      ru: '§3§lFLEX §c',
-    },
-    _julius: {
-      ru: '§c§lJULIUS §c',
-    },
-    _kanddy: {
-      ru: '§c§lCANDY §c',
-    },
-    ru: '§c§lVILLAGER §c',
-  },
   CONCRETE: {
     ru: 'Конкрит',
   },
@@ -2021,12 +1973,6 @@ local vars = std.extVar('vars');
   DEFAULT_MUTE_TIME_SET: {
     ru: '§cВы ввели некорректное время',
   },
-  DEFAULT_NAME: {
-    ru: '§7Игрок',
-  },
-  DEFAULT_PREFIX: {
-    ru: '§7',
-  },
   DELHOME_FORMAT: {
     ru: '/delhome <название>',
   },
@@ -2060,23 +2006,11 @@ local vars = std.extVar('vars');
   DIAMOND_LEGGINGS: {
     ru: 'Алмазные штаны',
   },
-  DIAMOND_NAME: {
-    _divinecraft: {
-      ru: '§3§lLEGEND',
-    },
-    ru: '§b§lDIAMOND',
-  },
   DIAMOND_PICKAXE: {
     ru: 'Алмазная кирка',
   },
   DIAMOND_PLAYER_ITEM_BOX_KIT: {
     ru: 'Алмазный человек',
-  },
-  DIAMOND_PREFIX: {
-    _divinecraft: {
-      ru: '§3§lLEGEND §b',
-    },
-    ru: '§b§lDIAMOND §b',
   },
   DIAMOND_SHOVEL: {
     ru: 'Алмазная лопата',
@@ -2505,20 +2439,8 @@ local vars = std.extVar('vars');
   EMERALD_ITEM_BOX_KIT: {
     ru: 'Изумрудное чудо',
   },
-  EMERALD_NAME: {
-    _divinecraft: {
-      ru: '§a§lANCIENT',
-    },
-    ru: '§a§lEMERALD',
-  },
   EMERALD_ORE: {
     ru: 'Изумрудная руда',
-  },
-  EMERALD_PREFIX: {
-    _divinecraft: {
-      ru: '§a§lANCIENT §a',
-    },
-    ru: '§a§lEMERALD §a',
   },
   ENABLE: {
     ru: 'Включено',
@@ -4121,20 +4043,8 @@ local vars = std.extVar('vars');
   GOLD_LEGGINGS: {
     ru: 'Золотые штаны',
   },
-  GOLD_NAME: {
-    _divinecraft: {
-      ru: '§6§lKNIGHT',
-    },
-    ru: '§6§lGOLD',
-  },
   GOLD_PICKAXE: {
     ru: 'Золотая кирка',
-  },
-  GOLD_PREFIX: {
-    _divinecraft: {
-      ru: '§e§lKNIGHT §e',
-    },
-    ru: '§e§lGOLD §e',
   },
   GOLD_REWARD_LOCALE: {
     ru: ' §7+ §e%s §f%s',
@@ -4482,12 +4392,6 @@ local vars = std.extVar('vars');
       '§7Хелперов:',
       '§a%s',
     ],
-  },
-  HELPER_NAME: {
-    ru: '§2Хелпер',
-  },
-  HELPER_PREFIX: {
-    ru: '§2§lHELPER §2',
   },
   HELP_COMMAND: {
     _flexmine: {
@@ -5975,42 +5879,6 @@ local vars = std.extVar('vars');
       '§a%s',
     ],
   },
-  JUNIOR_NAME: {
-    _divinecraft: {
-      ru: '§2§lGUARDIAN',
-    },
-    _fixmine: {
-      ru: '§2§lGUARDIAN',
-    },
-    _flexmine: {
-      ru: '§2§lASSISTANT',
-    },
-    _julius: {
-      ru: '§2§lGUARDIAN',
-    },
-    _kanddy: {
-      ru: '§2§lPROTECTOR',
-    },
-    ru: '§2§lDEFENDER',
-  },
-  JUNIOR_PREFIX: {
-    _divinecraft: {
-      ru: '§2§lGUARDIAN §2',
-    },
-    _fixmine: {
-      ru: '§2§lGUARDIAN §2',
-    },
-    _flexmine: {
-      ru: '§2§lASSISTANT §2',
-    },
-    _julius: {
-      ru: '§2§lGUARDIAN §2',
-    },
-    _kanddy: {
-      ru: '§2§lPROTECTOR §a',
-    },
-    ru: '§2§lDEFENDER §a',
-  },
   KELP: {
     ru: 'Ламинария',
   },
@@ -7278,12 +7146,6 @@ local vars = std.extVar('vars');
       '§7Модераторов:',
       '§a%s',
     ],
-  },
-  MODERATOR_NAME: {
-    ru: '§9Модератор',
-  },
-  MODERATOR_PREFIX: {
-    ru: '§9§lMODER §9',
   },
   MODERATOR_STAT: {
     ru: [
@@ -10098,42 +9960,6 @@ local vars = std.extVar('vars');
   SPONGE: {
     ru: 'Губка',
   },
-  SPONGE_NAME: {
-    _divinecraft: {
-      ru: '§7§lIMMORTAL',
-    },
-    _fixmine: {
-      ru: '§7§lENDER',
-    },
-    _flexmine: {
-      ru: '§7§lGRAND',
-    },
-    _julius: {
-      ru: '§7§lENDER',
-    },
-    _kanddy: {
-      ru: '§7§lCRYSTAL',
-    },
-    ru: '§7§lSPONGE',
-  },
-  SPONGE_PREFIX: {
-    _divinecraft: {
-      ru: '§7§lIMMORTAL §7',
-    },
-    _fixmine: {
-      ru: '§7§lENDER §7',
-    },
-    _flexmine: {
-      ru: '§7§lGRAND §7',
-    },
-    _julius: {
-      ru: '§7§lENDER §7',
-    },
-    _kanddy: {
-      ru: '§7§lCRYSTAL §7',
-    },
-    ru: '§7§lSPONGE §7',
-  },
   SPRUCE_LEAVES: {
     ru: 'Еловая листва',
   },
@@ -11332,42 +11158,6 @@ local vars = std.extVar('vars');
   WHEAT: {
     ru: 'Пшеница',
   },
-  WHEAT_NAME: {
-    _divinecraft: {
-      ru: '§d§lWARRIOR',
-    },
-    _fixmine: {
-      ru: '§d§lCOAL',
-    },
-    _flexmine: {
-      ru: '§d§lGLORY',
-    },
-    _julius: {
-      ru: '§d§lCOAL',
-    },
-    _kanddy: {
-      ru: '§6§lSWEET',
-    },
-    ru: '§6§lWHEAT',
-  },
-  WHEAT_PREFIX: {
-    _divinecraft: {
-      ru: '§d§lWARRIOR §d',
-    },
-    _fixmine: {
-      ru: '§d§lCOAL §d',
-    },
-    _flexmine: {
-      ru: '§d§lGLORY §d',
-    },
-    _julius: {
-      ru: '§d§lCOAL §d',
-    },
-    _kanddy: {
-      ru: '§6§lSWEET §6',
-    },
-    ru: '§6§lWHEAT §6',
-  },
   WHEAT_SEEDS: {
     ru: 'Семена пшеницы',
   },
@@ -11573,12 +11363,6 @@ local vars = std.extVar('vars');
   YELLOW_WOOL: {
     ru: 'Желтая шерсть',
   },
-  YOUTUBE_NAME: {
-    ru: '§f§lYou§c§lTube',
-  },
-  YOUTUBE_PREFIX: {
-    ru: '§f§lYouTube §c',
-  },
   YOU_ARE_MUTED: {
     ru: [
       '§8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬',
@@ -11751,7 +11535,7 @@ local vars = std.extVar('vars');
     ru: 'Зомби Пиглин',
   },
 }
-
++ import 'groups.jsonnet'
 + lib.prefixWith('ISLAND_', import 'island.jsonnet')
 + lib.prefixWith('PARTY_', import 'party.jsonnet')
 + lib.prefixWith('PERK_', import 'perk.jsonnet')
