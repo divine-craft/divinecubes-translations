@@ -40,6 +40,7 @@ jobs:
       - name: Dismiss
         uses: werf/actions/dismiss@v1.2
         env:
+          WERF_WITH_NAMESPACE: "true"
           GITHUB_TOKEN: ${{ secrets.CONTAINER_REGISTRY_TOKEN }}
         with:
           env: review-${{ github.event.number }}
