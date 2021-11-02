@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -eu
 
 for server in divinecraft flexmine julius kanddy village; do
