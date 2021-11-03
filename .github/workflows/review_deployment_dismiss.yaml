@@ -1,7 +1,7 @@
 name: Review Deployment Dismiss
 on:
   pull_request:
-    types: [labeled, closed]
+    types: [labeled]
 jobs:
 
   labels:
@@ -25,7 +25,7 @@ jobs:
   dismiss:
     name: Dismiss
     runs-on: ubuntu-latest
-    if: github.event.label.name == 'review_stop' || github.event.action == 'closed'
+    if: github.event.label.name == 'review_stop'
     steps:
 
       - name: Checkout code
