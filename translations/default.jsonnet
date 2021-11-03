@@ -1,4 +1,4 @@
-local lib = import 'vars/lib.jsonnet';
+local lib = import '/vars/lib.jsonnet';
 local vars = std.extVar('vars');
 
 {

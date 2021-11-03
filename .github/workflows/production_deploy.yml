@@ -15,23 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.5
 
-      - name: Setup jrsonnet
-        run: |
-          curl -L -O https://github.com/CertainLach/jrsonnet/releases/latest/download/jrsonnet-linux-static-amd64
-          mkdir ./bin
-          mv jrsonnet-linux-static-amd64 ./bin/jrsonnet
-          chmod +x ./bin/jrsonnet
-          echo "./bin" >> $GITHUB_PATH
-
-      - name: Render jsonnet files
-        run: ./vars/build.sh
-
-      - name: Add locale output files to Git
-        run: |
-          git config --global user.email "no-reply@github.com"
-          git config --global user.name "Github Actions"
-          git add ./.docker/app && git commit -m " Add locale output files"
-
       - name: Install werf CLI
         uses: werf/actions/install@v1.2
 
