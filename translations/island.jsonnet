@@ -1232,7 +1232,7 @@ local vars = std.extVar('vars');
     ru: 'До обновления',
   },
   MINE_UPDATE: {
-    ru: '§fАвтошахта обновлена §7/warp mine',
+    ru: vars.prefixSkyblock + ' §fАвтошахта обновлена',
   },
   MINE_UPDATE_HOLO: {
     ru: 'Обновлено!',
