@@ -26,6 +26,21 @@
      GLASS_STAGE_TITLE: {
         ru: '§6Игра №2',
      },
+     BOARD_STAGE: {
+        ru: '§fЭтап: §2%s',
+     },
+     DOLL_STAGE_NAME: {
+        ru: 'Первая игра',
+     },
+     GLASS_STAGE_NAME: {
+        ru: 'Вторая игра',
+     },
+     PVP_VOTING_STAGE_NAME: {
+        ru: '§eГолосование',
+     },
+     PVP_STAGE_NAME: {
+        ru: '§cPVP',
+     },
      OVER_TITLE: {
         ru: '§cВы проиграли',
      },
