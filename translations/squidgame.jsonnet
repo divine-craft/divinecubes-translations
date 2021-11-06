@@ -54,7 +54,7 @@
         ru: '§eSquid Game',
      },
      STAGE_FINISHED_BY_ALL_PLAYERS: {
-        ru: '§fВсе игроки завершили прохождение, начинается новый раунд!'
+        ru: '§fВсе игроки завершили прохождение данного этапа!'
      },
      GLASS_STAGE_LIVES_BAR: {
         ru: '§c❤ §fЖизней: §a%s'
