@@ -13,7 +13,7 @@ jobs:
     steps:
 
       - name: Take off label
-        uses: actions/github-script@v1
+        uses: actions/github-script@v5
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: >
@@ -31,7 +31,7 @@ jobs:
     steps:
 
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.4.0
         with:
           fetch-depth: 0
 
@@ -48,16 +48,6 @@ jobs:
             mv jrsonnet-linux-static-amd64 ./bin/jrsonnet
             chmod +x ./bin/jrsonnet
             echo "./bin" >> $GITHUB_PATH
-
-      - name: Render jsonnet files
-        run: ./vars/build.sh
-
-      - name: Add locale output files to Git
-        run: |
-          git config --global user.email "no-reply@github.com"
-          git config --global user.name "Github Actions"
-          git add ./.docker/app && git commit -m " Add locale output files"
-
 
       - name: Install werf CLI
         uses: werf/actions/install@v1.2

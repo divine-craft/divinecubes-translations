@@ -1,6 +1,6 @@
 local 
 	lib = import './lib.jsonnet',
-	data = import '../default.jsonnet',
+	data = import '/translations/default.jsonnet',
 	serverName = std.extVar('serverName'),
 	lang = std.extVar('lang'),
 	fallbackLang = std.extVar('fallbackLang')
