@@ -10845,6 +10845,12 @@ local vars = std.extVar('vars');
   TURTLE_SPAWN_EGG: {
     ru: 'яйцо черепахи',
   },
+  TUTORIAL_NPC_HOLO: {
+    ru: [
+      'Туториал по режиму',
+      '§8Нажми, чтобы посмотреть'
+    ]
+  },
   TWISTING_VINES: {
     ru: 'Вьющаяся лоза',
   },
