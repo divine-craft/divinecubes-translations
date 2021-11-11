@@ -10848,7 +10848,7 @@ local vars = std.extVar('vars');
   TUTORIAL_NPC_HOLO: {
     ru: [
       'Туториал по режиму',
-      '§8Нажми, чтобы посмотреть'
+      '§7Нажми, чтобы посмотреть'
     ]
   },
   TWISTING_VINES: {
