@@ -28,6 +28,9 @@ local vars = std.extVar('vars');
   ADDMEMBER_COMPLETE_ERROR: {
     ru: '§fИгрок %s §fуже добавлен в приват §7%s',
   },
+  ADDMEMBER_TARGET_LIMIT_REACHED: {
+    ru: '§fУ игрока %s §fдостигнуто максимальное количество приватов, в которых он может находиться'
+  },
   ADDMEMBER_COMPLETE_TARGET: {
     ru: '§fИгрок %s §fдобавил вас в приват §7%s',
   },
