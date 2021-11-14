@@ -1,7 +1,7 @@
 local vars = std.extVar('vars');
 
 {
-  COMPOT_BEDWARS_LORE: {
+  BW_COMPOT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7§nУникальный перк§7 - Антидинамитная система',
@@ -11,7 +11,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  COMPOT_EGGWARS_LORE: {
+  EW_COMPOT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания яйца',
@@ -20,7 +20,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  COMPOT_SKYBLOCK_LORE: {
+  SB_COMPOT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открыть GUI верстака - §f/workbench',
@@ -78,7 +78,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  COMPOT_CREATIVE_LORE: {
+  CREATIVE_COMPOT_ITEM_LORE: {
     ru: [
       '',
       '§8▪ §7Возможность ставить варпы: §f15',
@@ -99,7 +99,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  COMPOT_FISHING_LORE: {
+  FISHING_COMPOT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открывается доступ к телефону (все нужные функции - прямо из твоего кармана)',
@@ -107,7 +107,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  COMPOT_SURVIVAL_LORE: {
+  SURVIVAL_COMPOT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c30 §7предметов на аукционе (§f/ah§7)',
@@ -136,7 +136,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  COMPOT_ANARCHY_LORE: {
+  ANARCHY_COMPOT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c30 §7предметов на аукционе (§f/ah§7)',
@@ -160,7 +160,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  DIAMOND_BEDWARS_LORE: {
+  BW_DIAMOND_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания кровати',
@@ -169,7 +169,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  DIAMOND_EGGWARS_LORE: {
+  EW_DIAMOND_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания яйца',
@@ -202,7 +202,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  DIAMOND_SKYBLOCK_LORE: {
+  SB_DIAMOND_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открыть GUI верстака - §f/workbench',
@@ -232,7 +232,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  DIAMOND_SURVIVAL_LORE: {
+  SURVIVAL_DIAMOND_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c14 §7предметов на аукционе (§f/ah§7)',
@@ -261,7 +261,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  DIAMOND_ANARCHY_LORE: {
+  ANARCHY_DIAMOND_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c14 §7предметов на аукционе (§f/ah§7)',
@@ -283,7 +283,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  DIAMOND_CREATIVE_LORE: {
+  CREATIVE_DIAMOND_ITEM_LORE: {
     ru: [
       '',
       '§8▪ §7Возможность ставить варпы: §f7',
@@ -302,7 +302,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  DIAMOND_FISHING_LORE: {
+  FISHING_DIAMOND_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открывается доступ к телефону (все нужные функции - прямо из твоего кармана)',
@@ -310,7 +310,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  EMERALD_BEDWARS_LORE: {
+  BW_EMERALD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания кровати',
@@ -319,7 +319,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  EMERALD_EGGWARS_LORE: {
+  EW_EMERALD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания яйца',
@@ -354,7 +354,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  EMERALD_SKYBLOCK_LORE: {
+  SB_EMERALD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открыть GUI верстака - §f/workbench',
@@ -385,7 +385,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  EMERALD_SURVIVAL_LORE: {
+  SURVIVAL_EMERALD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c16 §7предметов на аукционе (§f/ah§7)',
@@ -414,7 +414,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  EMERALD_ANARCHY_LORE: {
+  ANARCHY_EMERALD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c14 §7предметов на аукционе (§f/ah§7)',
@@ -436,7 +436,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  EMERALD_CREATIVE_LORE: {
+  CREATIVE_EMERALD_ITEM_LORE: {
     ru: [
       '',
       '§8▪ §7Возможность ставить варпы: §f10',
@@ -456,7 +456,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  EMERALD_FISHING_LORE: {
+  FISHING_EMERALD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открывается доступ к телефону (все нужные функции - прямо из твоего кармана)',
@@ -464,7 +464,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  GOLD_BEDWARS_LORE: {
+  BW_GOLD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания кровати',
@@ -472,7 +472,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  GOLD_EGGWARS_LORE: {
+  EW_GOLD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания яйца',
@@ -480,7 +480,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  GOLD_ANARCHY_LORE: {
+  ANARCHY_GOLD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c12 §7предметов на аукционе (§f/ah§7)',
@@ -499,7 +499,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  GOLD_CREATIVE_LORE: {
+  CREATIVE_GOLD_ITEM_LORE: {
     ru: [
       '',
       '§8▪ §7Возможность ставить варпы: §f5',
@@ -514,7 +514,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  GOLD_FISHING_LORE: {
+  FISHING_GOLD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открывается доступ к телефону (все нужные функции - прямо из твоего кармана)',
@@ -545,7 +545,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  GOLD_SKYBLOCK_LORE: {
+  SB_GOLD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открыть GUI верстака - §f/workbench',
@@ -570,7 +570,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  GOLD_SURVIVAL_LORE: {
+  SURVIVAL_GOLD_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c12 §7предметов на аукционе (§f/ah§7)',
@@ -646,7 +646,7 @@ local vars = std.extVar('vars');
   MAIN_NAME: {
     ru: 'Привилегии',
   },
-  SPONGE_BEDWARS_LORE: {
+  BW_SPONGE_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания кровати',
@@ -655,7 +655,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  SPONGE_EGGWARS_LORE: {
+  EW_SPONGE_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания яйца',
@@ -664,7 +664,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  SPONGE_ANARCHY_LORE: {
+  ANARCHY_SPONGE_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c20 §7предметов на аукционе (§f/ah§7)',
@@ -688,7 +688,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  SPONGE_CREATIVE_LORE: {
+  CREATIVE_SPONGE_ITEM_LORE: {
     ru: [
       '',
       '§8▪ §7Возможность ставить варпы: §f12',
@@ -708,7 +708,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  SPONGE_FISHING_LORE: {
+  FISHING_SPONGE_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открывается доступ к телефону (все нужные функции - прямо из твоего кармана)',
@@ -743,7 +743,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  SPONGE_SKYBLOCK_LORE: {
+  SB_SPONGE_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открыть GUI верстака - §f/workbench',
@@ -773,7 +773,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  SPONGE_SURVIVAL_LORE: {
+  SURVIVAL_SPONGE_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c20 §7предметов на аукционе (§f/ah§7)',
@@ -802,7 +802,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  WHEAT_BEDWARS_LORE: {
+  BW_WHEAT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания кровати',
@@ -810,7 +810,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  WHEAT_EGGWARS_LORE: {
+  EW_WHEAT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Доступны некоторые звуки ломания яйца',
@@ -834,7 +834,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  WHEAT_SKYBLOCK_LORE: {
+  SB_WHEAT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открыть GUI верстака - §f/workbench',
@@ -853,7 +853,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  WHEAT_SURVIVAL_LORE: {
+  SURVIVAL_WHEAT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c10 §7предметов на аукционе (§f/ah§7)',
@@ -873,7 +873,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  WHEAT_ANARCHY_LORE: {
+  ANARCHY_WHEAT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Разрешено иметь до §c10 §7предметов на аукционе (§f/ah§7)',
@@ -891,7 +891,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  WHEAT_CREATIVE_LORE: {
+  CREATIVE_WHEAT_ITEM_LORE: {
     ru: [
       '',
       '§8▪ §7Возможность ставить варпы: §f3',
@@ -903,7 +903,7 @@ local vars = std.extVar('vars');
       '',
     ],
   },
-  WHEAT_FISHING_LORE: {
+  FISHING_WHEAT_ITEM_LORE: {
     ru: [
       '',
       ' §8▪ §7Открывается доступ к телефону (все нужные функции - прямо из твоего кармана)',
