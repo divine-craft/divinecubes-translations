@@ -15,6 +15,7 @@ FROM nginx:alpine
 WORKDIR /app
 
 COPY --from=builder ./app .
+COPY icons ./icons
 
 RUN rm -rf /usr/share/nginx/html/*
 
