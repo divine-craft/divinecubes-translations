@@ -11564,3 +11564,4 @@ local vars = std.extVar('vars');
 + lib.prefixWith('FISHING_', import 'fishing.jsonnet')
 + lib.prefixWith('GAMEMENU_', import 'gameMenu.jsonnet')
 + lib.prefixWith('SQUID_GAME_', import 'squidgame.jsonnet')
++ lib.prefixWith('BROADCASTS_', import 'autoMessage.jsonnet')
