@@ -8,4 +8,6 @@ local lib = import './lib.jsonnet';
 	vkRuleLink: 'https://vk.com/topic-191458533_41124629',
 	discord: '§7discord.villagemc.net',
 	serverName: '§2§lVillageMC',
+	siteColorStripped: 'villagemc.net',
+	vkGroupColorStripped: 'vk.com/villagemc'
 } + lib.makePrefixes(std.extVar("prefixes"), '§2', ' §8▏')

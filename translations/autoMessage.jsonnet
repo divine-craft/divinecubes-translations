@@ -1,5 +1,9 @@
 local vars = std.extVar('vars');
 
+
+
+local siteUpperCase = std.asciiUpper(vars.siteColorStripped); // VILLAGEMC.NET
+local vkGroupUpperCase = std.asciiUpper(vars.vkGroupColorStripped); // VK.COM/VILLAGEMC
 {
     MESSAGE_1: {
         ru: '[
@@ -10,7 +14,7 @@ local vars = std.extVar('vars');
                     {"text":"      §fкоторые §bдоступны игрокам, §fподдержавшим наc!\n"},
                     {"text":"      §b※ §fЧтобы узнать подробнее, пиши - §c/donate §b※\n"},
                     {"text":"                                                                              \n"},
-                    {"text":"                  §e§l»§f§l»§b§l» §l' + std.asciiUpper(vars.site) + ' §b§l«§f§l«§e§l«                \n"},
+                    {"text":"                  §e§l»§f§l»§b§l» §6§l' + siteUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                           \n"}
                 ]'
     },
@@ -23,7 +27,7 @@ local vars = std.extVar('vars');
                     {"text":"         §fкоманды? §eВы можете §fлегко это сделать!\n"},
                     {"text":"         §b※ §fНапишите команду: §c/party §f[никнейм] §b※\n"},
                     {"text":"                                                                              \n"},
-                    {"text":"                  §e§l»§f§l»§b§l» §l' + std.asciiUpper(vars.site) + ' §b§l«§f§l«§e§l«                \n"},
+                    {"text":"                  §e§l»§f§l»§b§l» §6§l' + siteUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                           \n"}
                 ]'
     },
@@ -36,7 +40,7 @@ local vars = std.extVar('vars');
                     {"text":"         §fПиши в чат §c/report §f[никнейм] [причина]\n"},
                     {"text":"         §b※ §fМы рассмотрим её в ближайшее время! §b※\n"},
                     {"text":"                                                                           \n"},
-                    {"text":"                  §e§l»§f§l»§b§l» §l' + std.asciiUpper(vars.site) + ' §b§l«§f§l«§e§l«                \n"},
+                    {"text":"                  §e§l»§f§l»§b§l» §6§l' + siteUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                           \n"}
                 ]'
     },
@@ -49,7 +53,7 @@ local vars = std.extVar('vars');
                     {"text":"         §fпозволяет §6изменить скин§f на нужный!\n"},
                     {"text":"         §b※ §fНапишите команду: §c/skin §f[ник игрока] §b※\n"},
                     {"text":"                                                                           \n"},
-                    {"text":"                  §e§l»§f§l»§b§l» §l' + std.asciiUpper(vars.site) + ' §b§l«§f§l«§e§l«                \n"},
+                    {"text":"                  §e§l»§f§l»§b§l» §6§l' + siteUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                           \n"}
                 ]'
     },
@@ -62,7 +66,7 @@ local vars = std.extVar('vars');
                     {"text":"         §fи актуальных §eобновлениях! §fПодписывайся\n"},
                     {"text":"         §b※ §fи будь в курсе §9последних §fновостей! §b※\n"},
                     {"text":"                                                                           \n"},
-                    {"text":"                  §e§l»§f§l»§b§l» §l' + std.asciiUpper(vars.vkGroup) + ' §b§l«§f§l«§e§l«                \n"},
+                    {"text":"                  §e§l»§f§l»§b§l» §3§l' + vkGroupUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                           \n"}
                 ]'
     },
@@ -75,7 +79,7 @@ local vars = std.extVar('vars');
                     {"text":"         §fсистема §eдоплаты, §fблагодаря которой\n"},
                     {"text":"         §b※ §fты сможешь §bповысить статус §fдешевле. §b※\n"},
                     {"text":"                                                                           \n"},
-                    {"text":"                  §e§l»§f§l»§b§l» §l' + std.asciiUpper(vars.site) + ' §b§l«§f§l«§e§l«                \n"},
+                    {"text":"                  §e§l»§f§l»§b§l» §6§l' + siteUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                           \n"}
                 ]'
     },
@@ -101,7 +105,7 @@ local vars = std.extVar('vars');
                     {"text":"       §fВоспользуйся функцией §eпривязки аккаунта §fк §9§LVK!\n"},
                     {"text":"       §b※ §fНапиши в лс группы §d!привязать §b※\n"},
                     {"text":"                                                                         \n"},
-                    {"text":"                  §e§l»§f§l»§b§l» §l' + std.asciiUpper(vars.vkGroup) + ' §b§l«§f§l«§e§l«                \n"},
+                    {"text":"                  §e§l»§f§l»§b§l» §3§l' + vkGroupUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                         \n"}
                 ]'
     },
@@ -128,7 +132,7 @@ local vars = std.extVar('vars');
                     {"text":"        §fвключить §eдвухфакторную ауентификацию §fчерез §9§LVK§f.\n"},
                     {"text":"        §b※ §fНапишите в лс группы команду §c!2fa §b※\n"},
                     {"text":"                                                                         \n"},
-                    {"text":"                  §e§l»§f§l»§b§l» §l' + std.asciiUpper(vars.vkGroup) + ' §b§l«§f§l«§e§l«                \n"},
+                    {"text":"                  §e§l»§f§l»§b§l» §3§l' + vkGroupUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                      \n"}
                 ]'
     }

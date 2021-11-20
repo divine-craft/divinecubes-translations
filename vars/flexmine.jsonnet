@@ -8,4 +8,6 @@ local lib = import './lib.jsonnet';
 	vkRuleLink: 'https://vk.com/topic-190275607_48202909',
 	discord: '§7discord.FlexMine.ru',
 	serverName: '§b§lFlexMine',
+    siteColorStripped: 'flexmine.ru',
+	vkGroupColorStripped: 'vk.com/flexmine'
 } + lib.makePrefixes(std.extVar("prefixes"), '§5', ' §8▏')
