@@ -1,7 +1,7 @@
 {
     SERVER_LIST_PING: {
         _divinecraft: {
-          ru: 'd§l▪ DivineCraft ▪ §7§l1.16+ \n§7Скучали по нам? §e➝ §5vk.com/divinecraftru',
+          ru: '§d§l▪ DivineCraft ▪ §7§l1.16+ \n§7Скучали по нам? §e➝ §5vk.com/divinecraftru',
         },
         _flexmine: {
           ru: '§3§lFlexMine §e§l⚡ §3[§fВерсия 1.16+§3] \n   §eГлобальное обновление сервера!',
