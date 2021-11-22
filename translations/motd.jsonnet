@@ -13,5 +13,20 @@
           ru: '§5play.§lKanddyCraft.§5ru §7[1.16 - 1.17] \n§fПерерождение §5§l➠ §6vk.com/kanddycraft',
         },
         ru: '§e§lThe §a§lVillage §f» §fНаш сайт: §cvillagemc.net \n§8§k§l| §b1.16-1.17 §8§k§l| §fВайп и обновление - §6§lANARCHY'
+    },
+    VK_STATUS_BADGE: {
+        _divinecraft: {
+          ru: '🏓 IP: play.divinecraft.ru | На сервере играет %s %s',
+        },
+        _flexmine: {
+          ru: '🏓 IP: play.flexmine.ru | На сервере играет %s %s',
+        },
+        _julius: {
+          ru: '🏓 IP: play.juliuscraft.ru | На сервере играет %s %s',
+        },
+        _kanddy: {
+          ru: '🏓 IP: play.kanddycraft.ru | На сервере играет %s %s',
+        },
+        ru: '🏓 IP: play.villagemc.net | На сервере играет %s %s',
     }
 }
