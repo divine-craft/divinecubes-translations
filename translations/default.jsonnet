@@ -11251,6 +11251,13 @@ local vars = std.extVar('vars');
   WIPE_KIT_LIBRARIAN_NAME: {
     ru: '§bНабор Библиотекаря',
   },
+  HOLO_DONATE_ON_GAMES: {
+    ru: [
+      '§cДонат возможности',
+      '§fИнформация по всем плюшкам',
+      '§7Нажмите, чтобы открыть',
+    ],
+  },
   WIPE_KIT_LORE_BUY: {
     _divinecraft: {
       ru: [
