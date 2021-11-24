@@ -103,7 +103,7 @@ local vkGroupUpperCase = std.asciiUpper(vars.vkGroupColorStripped); // VK.COM/VI
                     {"text":"       §f[§a✉§f] Хочешь получить §fдва изумруда,\n"},
                     {"text":"       §fпри этом §aобезопасив свой аккаунт §fот взлома?\n"},
                     {"text":"       §fВоспользуйся функцией §eпривязки аккаунта §fк §9§LVK!\n"},
-                    {"text":"       §b※ §fНапиши в лс группы §d!привязать §b※\n"},
+                    {"text":"       §b※ §fНапиши команду §d/vklink §b※\n"},
                     {"text":"                                                                         \n"},
                     {"text":"                  §e§l»§f§l»§b§l» §3§l' + vkGroupUpperCase + ' §b§l«§f§l«§e§l«                \n"},
                     {"text":"                                                                         \n"}

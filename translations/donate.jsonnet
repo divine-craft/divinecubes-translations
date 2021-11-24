@@ -11,6 +11,12 @@ local vars = std.extVar('vars');
     _kanddy: {
       ru: 'Пряники',
     },
+    _divinecraft: {
+      ru: 'Дивинити',
+    },
+    _bunnyboom: {
+      ru: 'Гемы',
+    },
     ru: 'Изумруды',
   },
   MENU_FAST_MESSAGE_LORE: {

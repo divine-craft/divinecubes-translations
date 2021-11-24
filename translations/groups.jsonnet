@@ -18,6 +18,9 @@
       _julius: {
         ru: '§d§lCOAL',
       },
+      _bunnyboom: {
+        ru: '§d§lCOAL',
+      },
       _kanddy: {
         ru: '§6§lSWEET',
       },
@@ -34,6 +37,9 @@
         ru: '§d§lGLORY §d',
       },
       _julius: {
+        ru: '§d§lCOAL §d',
+      },
+      _bunnyboom: {
         ru: '§d§lCOAL §d',
       },
       _kanddy: {
@@ -90,6 +96,9 @@
     _julius: {
       ru: '§7§lENDER',
     },
+    _bunnyboom: {
+      ru: '§7§lENDER',
+    },
     _kanddy: {
       ru: '§7§lCRYSTAL',
     },
@@ -106,6 +115,9 @@
       ru: '§7§lGRAND §7',
     },
     _julius: {
+      ru: '§7§lENDER §7',
+    },
+    _bunnyboom: {
       ru: '§7§lENDER §7',
     },
     _kanddy: {
@@ -126,6 +138,9 @@
     _julius: {
       ru: '§c§lJULIUS',
     },
+    _bunnyboom: {
+      ru: '§c§lBUNNY',
+    },
     _kanddy: {
       ru: '§c§lCANDY',
     },
@@ -144,6 +159,9 @@
     _julius: {
       ru: '§c§lJULIUS §c',
     },
+    _bunnyboom: {
+      ru: '§c§lBUNNY §c',
+    },
     _kanddy: {
       ru: '§c§lCANDY §c',
     },
@@ -157,6 +175,9 @@
   },
   JUNIOR_NAME: {
     _divinecraft: {
+      ru: '§2§lGUARDIAN',
+    },
+    _bunnyboom: {
       ru: '§2§lGUARDIAN',
     },
     _fixmine: {
@@ -175,6 +196,9 @@
   },
   JUNIOR_PREFIX: {
     _divinecraft: {
+      ru: '§2§lGUARDIAN §2',
+    },
+    _bunnyboom: {
       ru: '§2§lGUARDIAN §2',
     },
     _fixmine: {

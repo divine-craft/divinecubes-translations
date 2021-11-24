@@ -1,13 +1,13 @@
 local lib = import './lib.jsonnet';
 
 {
-	server: '§bplay.bunnyboom.net',
+	server: '§3play.bunnyboom.net',
 	site: '§bbunnyboom.net',
-	vkGroup: '§dvk.com/bunnyboom',
-	vkGroupLink: 'https://vk.me/bunnyboom',
-	vkRuleLink: '??',
+	vkGroup: '§dvk.com/bunnyboomnet',
+	vkGroupLink: 'https://vk.com/bunnyboomnet',
+	vkRuleLink: 'https://vk.com/topic-209029639_48250630',
 	discord: '§7discord.bunnyboom.net',
-	serverName: '§a§lBunnyBoom',
+	serverName: '§b§lBunnyBoom',
 	siteColorStripped: 'bunnyboom.net',
-	vkGroupColorStripped: 'vk.com/bunnyboom'
-} + lib.makePrefixes(std.extVar("prefixes"), '§d', ' §8▏')
+	vkGroupColorStripped: 'vk.com/bunnyboomnet'
+} + lib.makePrefixes(std.extVar("prefixes"), '§5', ' §8▏')
