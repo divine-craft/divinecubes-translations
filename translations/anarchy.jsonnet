@@ -279,6 +279,9 @@ local vars = std.extVar('vars');
     _julius: {
       ru: vars.prefixAnarchy + '§fУ вас недостаточно §6серебра!',
     },
+    _bunnyboom: {
+      ru: vars.prefixAnarchy + '§fУ вас недостаточно §6гемов!',
+    },
     ru: vars.prefixAnarchy + '§fУ вас недостаточно §aизумрудов!',
   },
   NO_MONEY: {

@@ -2,7 +2,7 @@
 
 set -eu
 
-for server in divinecraft flexmine julius kanddy village; do
+for server in divinecraft bunnyboom flexmine julius kanddy village; do
 	mkdir -p ./app/$server/src/lang
 	for lang in en ru uk; do
 		./jrsonnet-linux-static-amd64 \

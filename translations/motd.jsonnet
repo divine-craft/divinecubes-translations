@@ -9,6 +9,9 @@
         _julius: {
           ru: '          §6§lJuliusCraft §7[1.16-1.17] \n   §eСервер от Юлика ▶ §bvk.com/juliuscraft',
         },
+        _bunnyboom: {
+          ru: '§3§lBunnyBoom §e§l⚡ §3[§fВерсия 1.16+§3] \n   §eГрадиозное открытие!',
+        },
         _kanddy: {
           ru: '§5play.§lKanddyCraft.§5ru §7[1.16 - 1.17] \n§fПерерождение §5§l➠ §6vk.com/kanddycraft',
         },
@@ -23,6 +26,9 @@
         },
         _julius: {
           ru: '🏓 IP: play.juliuscraft.ru | На сервере играет %s %s',
+        },
+        _bunnyboom: {
+          ru: '🏓 IP: play.bunnyboom.ru | На сервере играет %s %s',
         },
         _kanddy: {
           ru: '🏓 IP: play.kanddycraft.ru | На сервере играет %s %s',
