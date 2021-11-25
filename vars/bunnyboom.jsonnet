@@ -2,7 +2,7 @@ local lib = import './lib.jsonnet';
 
 {
 	server: '§3play.bunnyboom.net',
-	site: '§bbunnyboom.net',
+	site: '§bBUNNYBOOM.NET',
 	vkGroup: '§dvk.com/bunnyboomnet',
 	vkGroupLink: 'https://vk.com/bunnyboomnet',
 	vkRuleLink: 'https://vk.com/topic-209029639_48250630',
