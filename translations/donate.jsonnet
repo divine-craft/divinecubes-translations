@@ -87,6 +87,10 @@ local vars = std.extVar('vars');
     _kanddy: {
       ru: '§5Пряники',
     },
+    _bunnyboom: {
+      ru: '§bГемы',
+    },
+
     ru: '§aИзумруды',
   },
   MENU_GUI_CURRENCY_STRING_MONEY: {
@@ -94,6 +98,15 @@ local vars = std.extVar('vars');
   },
   MENU_GUI_CURRENCY_TITLE: {
     ru: 'Магазин валюты',
+  },
+  MENU_GUI_COUPON_GUI_TITLE: {
+    ru: 'Купон/промокод',
+  },
+  MENU_GUI_COUPON_GUI_STRING_ACCEPT: {
+    ru: '§aУ меня есть купон',
+  },
+  MENU_GUI_COUPON_GUI_STRING_DECLINE: {
+    ru: '§cУ меня нет купона',
   },
   MENU_GUI_FINAL_ACCEPT_LORE: {
     ru: [
@@ -192,7 +205,7 @@ local vars = std.extVar('vars');
     ru: 'Смена префикса',
   },
   MENU_PROMPT_COUPON_ENTRY_STRING: {
-    ru: '§6Ваша покупка §8| §fВведи купон: [Если его нет, то напишите в чат что угодно]',
+    ru: '§6Ваша покупка §8| §fНапишите в чат ваш купон:',
   },
   MENU_PROMPT_COUPON_TEXT_FIRST: {
     _julius: {
@@ -218,7 +231,7 @@ local vars = std.extVar('vars');
   MENU_PROMPT_COUPON_TEXT_SECOND: {
     ru: 'Ссылка на покупку',
   },
-  MENU_PROMPT_COUPON_WRONG_FIRST: {
+  MENU_PROMPT_COUPON_WRONG: {
     ru: '§6Ваша покупка §8| §fВведён §cнекорректный §fкупон, вы получите ссылку на покупку товара без купона',
   },
   MENU_PROMPT_EMAIL_ENTRY_STRING: {
