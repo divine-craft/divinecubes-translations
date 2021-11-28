@@ -2,6 +2,9 @@ local lib = import '/vars/lib.jsonnet';
 local vars = std.extVar('vars');
 
 {
+  SERVER_DOMAIN: {
+    ru: vars.siteColorStripped
+  },
   ABNORMAL_HEAT_WARN: {
     ru: '§cВы умрете находясь под открытым небом!',
   },
