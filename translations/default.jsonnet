@@ -10390,7 +10390,7 @@ local vars = std.extVar('vars');
     ru: 'Монеты',
   },
   SURVIVAL_KEY: {
-    ru: '§aСкайблочный ключ',
+    ru: '§6Ключ выживания',
   },
   SURVIVAL_KEY_LORE: {
     ru: [
