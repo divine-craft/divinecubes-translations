@@ -939,6 +939,9 @@ local vars = std.extVar('vars');
   BOAT: {
     ru: 'Лодка',
   },
+  BOMBER_ITEM_BOX_KIT: {
+    ru: 'Подрывник',
+  },
   BONE: {
     ru: 'Кость',
   },
@@ -1164,6 +1167,9 @@ local vars = std.extVar('vars');
   BREAK_BLOCK_UNDER_TEAM: {
     ru: '§cВы не можете ломать блоки под своими тиммейтами',
   },
+  BREWER_ITEM_BOX_KIT: {
+      ru: 'Зельевар',
+    },
   BREWING_STAND_ITEM: {
     ru: 'Зельеварка',
   },
@@ -3466,6 +3472,9 @@ local vars = std.extVar('vars');
   FIRE_CORAL_FAN: {
     ru: 'Веерный огненный коралл',
   },
+  FISHER_ITEM_BOX_KIT: {
+    ru: 'Рыбак',
+  },
   FISHING_ROD: {
     ru: 'Удочка',
   },
@@ -3492,6 +3501,9 @@ local vars = std.extVar('vars');
   },
   FLY_GOD_PVP_DISABLE: {
     ru: '§cОшибка, вы не можете атаковать игроков в режиме бога или полета',
+  },
+  FLYER_ITEM_BOX_KIT: {
+    ru: 'Лётчик',
   },
   FOX_SPAWN_EGG: {
     ru: 'Яйцо лисы',
@@ -6670,6 +6682,9 @@ local vars = std.extVar('vars');
       ' §8• §7Взрывное зелье прыгучести §8(x2)',
     ],
   },
+  KNIGHT_ITEM_BOX_KIT: {
+    ru: 'Рыцарь',
+  },
   LADDER: {
     ru: 'Лестница',
   },
@@ -7158,6 +7173,9 @@ local vars = std.extVar('vars');
   MAY: {
     ru: 'Май',
   },
+  MECHANIC_ITEM_BOX_KIT: {
+      ru: 'Механик',
+    },
   MELON: {
     ru: 'Арбуз',
   },
@@ -8425,6 +8443,9 @@ local vars = std.extVar('vars');
   },
   PROMO_ITEM_NAME: {
     ru: '§aСКИДКИ!',
+  },
+  PROPER_ITEM_BOX_KIT: {
+    ru: 'Бутафор',
   },
   PRS_GAME_DESC: {
     ru: [
