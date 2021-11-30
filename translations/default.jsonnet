@@ -471,10 +471,10 @@ local vars = std.extVar('vars');
   },
   BEST_PLAYER_GUI: {
     _divinecraft: {
-      ru: 'Любимый игрок Юлика',
+      ru: 'Лучший игрок сервера',
     },
     _fixmine: {
-      ru: 'Любимый игрок Юлика',
+      ru: 'Лучший игрок сервера',
     },
     _flexmine: {
       ru: 'Лучший игрок сервера',
