@@ -1,6 +1,6 @@
-FROM ubuntu:latest AS builder
+FROM alpine:latest AS builder
 
-RUN apt-get update && apt-get install -y curl
+RUN apk add curl --no-cache
 
 RUN curl -L -O https://github.com/CertainLach/jrsonnet/releases/download/v0.5.0-gcmodule-test/jrsonnet-linux-static-amd64
 RUN chmod +x jrsonnet-linux-static-amd64
