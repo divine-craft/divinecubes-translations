@@ -1,6 +1,6 @@
 #!/bin/ash
 
-for server in divinecraft bunnyboom flexmine julius kanddy village; do
+for server in divinecraft bunnyboom flexmine julius kanddy village gribland; do
 	mkdir -p ./app/$server/src/lang
 	for lang in ru; do
 		./jrsonnet-linux-static-amd64 \
