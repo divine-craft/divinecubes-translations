@@ -282,6 +282,9 @@ local vars = std.extVar('vars');
     _bunnyboom: {
       ru: vars.prefixAnarchy + '§fУ вас недостаточно §6гемов!',
     },
+    _gribland: {
+      ru: vars.prefixAnarchy + '§fУ вас недостаточно §6грибов!',
+    },
     ru: vars.prefixAnarchy + '§fУ вас недостаточно §aизумрудов!',
   },
   NO_MONEY: {
