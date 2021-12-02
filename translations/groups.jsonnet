@@ -18,6 +18,9 @@
       _julius: {
         ru: '§d§lCOAL',
       },
+      _gribland: {
+        ru: '§d§lCOAL',
+      },
       _bunnyboom: {
         ru: '§d§lCOAL',
       },
@@ -37,6 +40,9 @@
         ru: '§d§lGLORY §d',
       },
       _julius: {
+        ru: '§d§lCOAL §d',
+      },
+      _gribland: {
         ru: '§d§lCOAL §d',
       },
       _bunnyboom: {
@@ -96,6 +102,9 @@
     _julius: {
       ru: '§7§lENDER',
     },
+    _gribland: {
+      ru: '§7§lMUSHROOM',
+    },
     _bunnyboom: {
       ru: '§7§lENDER',
     },
@@ -116,6 +125,9 @@
     },
     _julius: {
       ru: '§7§lENDER §7',
+    },
+    _gribland: {
+      ru: '§7§lMUSHROOM §7',
     },
     _bunnyboom: {
       ru: '§7§lENDER §7',
@@ -138,6 +150,9 @@
     _julius: {
       ru: '§c§lJULIUS',
     },
+    _gribland: {
+      ru: '§c§lMUSHROOM',
+    },
     _bunnyboom: {
       ru: '§c§lBUNNY',
     },
@@ -158,6 +173,9 @@
     },
     _julius: {
       ru: '§c§lJULIUS §c',
+    },
+    _gribland: {
+      ru: '§c§lMUSHROOM §c',
     },
     _bunnyboom: {
       ru: '§c§lBUNNY §c',
@@ -189,6 +207,9 @@
     _julius: {
       ru: '§2§lGUARDIAN',
     },
+    _gribland: {
+      ru: '§2§lGUARDIAN',
+    },
     _kanddy: {
       ru: '§2§lPROTECTOR',
     },
@@ -208,6 +229,9 @@
       ru: '§2§lASSISTANT §2',
     },
     _julius: {
+      ru: '§2§lGUARDIAN §2',
+    },
+    _gribland: {
       ru: '§2§lGUARDIAN §2',
     },
     _kanddy: {

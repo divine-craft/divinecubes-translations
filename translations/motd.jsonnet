@@ -12,6 +12,9 @@
         _bunnyboom: {
           ru: '§3§lBunnyBoom §e§l⚡ §3[§fВерсия 1.16+§3] \n§fplay.bunnyboom.net §e➝ Градиозное открытие!',
         },
+        _gribland: {
+          ru: '§3§lGribLand §f» §fВсегда с вами: §cplay.gribland.com \n§8§k§l| §b1.16-1.17 §8§k§l| §fГрадиозное открытие!',
+        },
         _kanddy: {
           ru: '§5play.§lKanddyCraft.§5ru §7[1.16 - 1.17] \n§fПерерождение §5§l➠ §6vk.com/kanddycraft',
         },
@@ -29,6 +32,9 @@
         },
         _bunnyboom: {
           ru: '🏓 IP: play.bunnyboom.ru | На сервере играет %s %s',
+        },
+        _gribland: {
+          ru: '🏓 IP: play.gribland.ru | На сервере играет %s %s',
         },
         _kanddy: {
           ru: '🏓 IP: play.kanddycraft.ru | На сервере играет %s %s',
