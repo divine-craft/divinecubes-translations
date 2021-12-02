@@ -17,6 +17,9 @@ local vars = std.extVar('vars');
     _bunnyboom: {
       ru: 'Гемы',
     },
+    _gribland: {
+      ru: 'Грибы',
+    },
     ru: 'Изумруды',
   },
   MENU_FAST_MESSAGE_LORE: {
@@ -90,7 +93,9 @@ local vars = std.extVar('vars');
     _bunnyboom: {
       ru: '§bГемы',
     },
-
+    _gribland: {
+      ru: '§bГрибы',
+    },
     ru: '§aИзумруды',
   },
   MENU_GUI_CURRENCY_STRING_MONEY: {
