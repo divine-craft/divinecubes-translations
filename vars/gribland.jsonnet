@@ -1,13 +1,13 @@
 local lib = import './lib.jsonnet';
 
 {
-	server: '§dplay.DivineCraft.ru',
-	site: '§dDivineCraft.ru',
-	vkGroup: '§dvk.com/divinecraftru',
-	vkGroupLink: 'https://vk.com/divinecraftru',
-	vkRuleLink: 'https://vk.com/topic-131346889_40885593',
-	discord: '§9discord.DivineCraft.ru',
-	serverName: '§d§lDivineCraft',
-	siteColorStripped: 'divinecraft.ru',
-	vkGroupColorStripped: 'vk.com/divinecraftru'
+	server: '§3play.gribland.com',
+	site: '§bGRIBLAND.COM',
+	vkGroup: '§dvk.com/griblandproject',
+	vkGroupLink: '?',
+	vkRuleLink: '?',
+	discord: '§7discord.gribland.com',
+	serverName: '§b§lGribLand',
+	siteColorStripped: 'gribland.com',
+	vkGroupColorStripped: 'vk.com/griblandproject'
 } + lib.makePrefixes(std.extVar("prefixes"), '§5', ' §8▏')
