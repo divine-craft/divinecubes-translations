@@ -76,6 +76,16 @@ local vars = std.extVar('vars');
   FLAG_ICE_MELTING_NAME: {
     ru: 'Таяние льда',
   },
+  FLAG_MONSTER_DAMAGE_LORE: {
+    ru: [
+      '',
+      '§7Позволяет включить или',
+      '§7отключить урон по агрессивным мобам в регионе',
+    ],
+  },
+  FLAG_MONSTER_DAMAGE_NAME: {
+    ru: 'Урон по монстрам',
+  },
   FLAG_PVP_LORE: {
     ru: [
       '',
