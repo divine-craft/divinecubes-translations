@@ -3885,7 +3885,7 @@ local vars = std.extVar('vars');
     _bunnyboom: {
       ru: vars.prefixServer + ' §fОшибка! У вас недостаточно §bгемов§f для покупки! Покупка гемов осуществляется только на сайте ' + vars.site + ' §7(жми)',
     },
-    _gribland
+    _gribland: {
       ru: vars.prefixServer + ' §fОшибка! У вас недостаточно §bгрибок§f для покупки! Покупка гемов осуществляется только на сайте ' + vars.site + ' §7(жми)',
     },
     _kanddy: {
