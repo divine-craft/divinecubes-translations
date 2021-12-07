@@ -18,7 +18,7 @@
         _kanddy: {
           ru: '§5play.§lKanddyCraft.§5ru §7[1.16 - 1.17] \n§fПерерождение §5§l➠ §6vk.com/kanddycraft',
         },
-        ru: '§e§lThe §a§lVillage §f» §fНаш сайт: §cvillagemc.net \n§8§k§l| §b1.16-1.17 §8§k§l| §fВайп §6§lSURVIVAL и обновление - §e§lMYVILLAGE'
+        ru: '§e§lThe §a§lVillage §f» §fНаш сайт: §cvillagemc.net \n§8§k§l| §b1.16-1.17 §8§k§l| §fВайп §6§lSURVIVAL §fи §e§lMYVILLAGE'
     },
     VK_STATUS_BADGE: {
         _divinecraft: {
