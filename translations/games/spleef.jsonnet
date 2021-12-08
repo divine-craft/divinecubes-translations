@@ -19,5 +19,8 @@
     },
     TEAM_LOSE_ROUND: {
         ru: 'Команда %s §fпроиграла этот раунд!'
+    },
+    TEAM_TYPE: {
+        ru: '§bSpleef'
     }
 }
