@@ -12,6 +12,9 @@
         _bunnyboom: {
           ru: '§3§lBunnyBoom §e§l⚡ §3[§fВерсия 1.16+§3] \n§fplay.bunnyboom.net §e➝ Градиозное открытие!',
         },
+        _flexmine: {
+          ru: '§3§lFlexMine §e§l⚡ §3[§fВерсия 1.16+§3] \n§fplay.flexmine.net §e➝ Сюрприз, не ждали?',
+        },
         _gribland: {
           ru: '§3§lGribLand §f» §fВсегда с вами: §cplay.gribland.com \n§8§k§l| §b1.16-1.17 §8§k§l| §fГрадиозное открытие!',
         },
