@@ -103,6 +103,9 @@
   ITEM_WIPE: {
     ru: '§lСделали вайп!',
   },
+  ITEM_CHRISTMAS_NAME: {
+    ru: '§lНовогоднее обновление!'
+  },
   KITWARS_LORE: {
     ru: [
       '§8ПВП режим',
