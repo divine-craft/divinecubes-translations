@@ -508,7 +508,7 @@ local vars = std.extVar('vars');
   },
   BEST_PLAYER_HOLO: {
     _divinecraft: {
-      ru: '§fЛюбимый игрок Юлика:',
+      ru: '§fЛучший игрок сервера:',
     },
     _fixmine: {
       ru: '§fЛюбимый игрок Юлика:',
