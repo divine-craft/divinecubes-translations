@@ -589,7 +589,7 @@ local vars = std.extVar('vars');
     ru: '/rg removemember <ник>',
   },
   REMOVE_BY: {
-    ru: '§fВаш приват §7%s §fбыл удален ироком %s',
+    ru: '§fВаш приват §7%s §fбыл удален игроком %s',
   },
   REMOVE_FORMAT: {
     ru: '/rg remove <название региона>',
