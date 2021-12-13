@@ -597,6 +597,9 @@ local vars = std.extVar('vars');
   REMOVE_OWNER_ERROR: {
     ru: '§fОшибка, вы не можете снять приват, так как вы не владелец данного региона',
   },
+  REMOVE_REGION_CONFIRM: {
+    ru: '§fВы собираетесь удалить §cчужой §fрегион на сервере §7%s§f, в мире §7%s§f, с центром в §7%s %s %s\n%s\n§fИспользуйте §7/rg confirm <имя региона>'
+  },
   SELECTION_FORMAT: {
     ru: '/rg selection <название региона>',
   },
@@ -742,6 +745,12 @@ local vars = std.extVar('vars');
   },
   UPGRADE_UP_SUCCES_TO: {
     ru: vars.prefixAnarchy + ' §fПриват §7%s §fрасширен на §a%s §fблоков по координате §7Y §fигроком %s',
+  },
+  YOU_ARE_IN_REGION: {
+    ru: '§aВы находитесь в этом регионе',
+  },
+  YOU_ARE_NOT_IN_REGION: {
+    ru: '§cВы НЕ находитесь в этом регионе',
   },
 }
 
