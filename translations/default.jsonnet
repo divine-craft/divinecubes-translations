@@ -1057,6 +1057,9 @@ local vars = std.extVar('vars');
       '§e▸ Нажмите, чтобы открыть кейс',
     ],
   },
+  BOX_DROPS_GUI_NAME: {
+    ru: 'Дропы',
+  },
   BOX_EXP: {
     ru: '§eОпыт §f(§a+%s§f)',
   },
@@ -1182,6 +1185,16 @@ local vars = std.extVar('vars');
       '§7Купить ключи за %s',
       '',
       '§a▸ Нажмите, чтобы купить ключи',
+    ],
+  },
+  BOX_SHOW_DROPS_NAME: {
+    ru: 'Список дропа',
+  },
+  BOX_SHOW_DROPS_NAME: {
+    ru: [
+      '§7Все, что может выпасть',
+      '',
+      '§a▸ Нажмите, чтобы посмотреть',
     ],
   },
   BOX_SUB_NAME: {
