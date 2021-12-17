@@ -1190,7 +1190,7 @@ local vars = std.extVar('vars');
   BOX_SHOW_DROPS_NAME: {
     ru: 'Список дропа',
   },
-  BOX_SHOW_DROPS_NAME: {
+  BOX_SHOW_DROPS_LORE: {
     ru: [
       '§7Все, что может выпасть',
       '',
