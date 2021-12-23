@@ -1,6 +1,7 @@
 {
   DEFAULT_NAME: {
     ru: '§7Игрок',
+    en: '§7Player'
   },
   DEFAULT_PREFIX: {
     ru: '§7',

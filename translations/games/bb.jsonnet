@@ -3,141 +3,209 @@ local vars = std.extVar('vars');
 {
   EFFECT: {
     ru: 'эффект',
+    en: 'effect'
   },
   EFFECT_ANGRY_VILLAGER: {
     ru: 'Злой житель',
+    en: 'Angry villager',
   },
   EFFECT_ANGRY_VILLAGER_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_CLOUD: {
     ru: 'Облака',
+    en: 'Clouds',
   },
   EFFECT_CLOUD_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_CRIT_DEFAULT: {
     ru: 'Вспышки',
+    en: 'Flashes',
   },
   EFFECT_CRIT_DEFAULT_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_CRIT_MAGIC: {
     ru: 'Криты',
+    en: 'Crits',
   },
   EFFECT_CRIT_MAGIC_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_DAMAGE_INDICATOR: {
     ru: 'Темные сердечки',
+    en: 'Dark hearts',
   },
   EFFECT_DAMAGE_INDICATOR_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_EXPLOSION: {
     ru: 'Взрыв',
+    en: 'explosion',
   },
   EFFECT_EXPLOSION_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_HAPPY_VILLAGER: {
     ru: 'Счастливый житель',
+    en: 'Happy villager'
   },
   EFFECT_HAPPY_VILLAGER_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_HEART: {
     ru: 'Сердечки',
+    en: 'Hearts'
   },
   EFFECT_HEART_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_LAVA: {
     ru: 'Лава',
+    en: 'Lava',
   },
   EFFECT_LAVA_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_MAGIC: {
     ru: 'Заклинание',
+    en: 'Spell',
   },
   EFFECT_MAGIC_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_NOTE: {
     ru: 'Ноты',
+    en: 'Notes',
   },
   EFFECT_NOTE_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_PURCHASE_MESSAGE: {
     ru: 'Вы приобрели эффект §a%s §fза §a%s §f%s. Теперь его можно будет добавлять на свой участок в игре.',
+    en: 'You purchased the effect §a%s §fза §a%s §f%s. Now it can be added to your region in the game.',
   },
   EFFECT_REDSTONE: {
     ru: 'Редстоун',
+    en: 'Redstone',
   },
   EFFECT_REDSTONE_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_SELECTION_MESSAGE: {
     ru: 'Вы получили предмет для установки эффекта §a%s §fна участок. Нажмите ПКМ на нужный блок, чтобы установить его',
+    en: 'You have received an item to set an effect §a%s §fon your region. Right click on the desired block to install it',
   },
   EFFECT_SNOW: {
     ru: 'Снег',
+    en: 'Snow',
   },
   EFFECT_SNOW_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_SPELL_MOB: {
     ru: 'Искры',
+    en: 'Sparks',
   },
   EFFECT_SPELL_MOB_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_SPELL_WITCH: {
     ru: 'Магия',
+    en: 'Magic',
   },
   EFFECT_SPELL_WITCH_LORE: {
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   EFFECT_WATER: {
     ru: 'Вода',
+    en: 'Water',
   },
   EFFECT_WATER_BUBBLE: {
     ru: 'Пузыри',
+    en: 'Bubbles',
   },
   EFFECT_WATER_BUBBLE_LORE: {
     ru: [
+
+    ],
+    en: [
 
     ],
   },
@@ -145,9 +213,13 @@ local vars = std.extVar('vars');
     ru: [
 
     ],
+    en: [
+
+    ],
   },
   HEAD: {
     ru: 'голова',
+    en: 'head',
   },
   HEAD_ANDESITE: {
     ru: 'Andesite',
@@ -1855,6 +1927,7 @@ local vars = std.extVar('vars');
   },
   HEAD_PURCHASE_MESSAGE: {
     ru: 'Вы приобрели голову §a%s §fза §a%s §f%s. Теперь её можно будет использовать в игре на своем участке.',
+    en: 'You purchased the head §a%s §fза §a%s §f%s. ТNow it can be used in the game in your region.',
   },
   HEAD_PURPLE_GRAPES: {
     ru: 'Purple Grapes',
@@ -2090,6 +2163,7 @@ local vars = std.extVar('vars');
   },
   HEAD_SELECTION_MESSAGE: {
     ru: 'Вы получили голову §a%s',
+    en: 'You received the head §a%s',
   },
   HEAD_SHEEP: {
     ru: 'Sheep',
