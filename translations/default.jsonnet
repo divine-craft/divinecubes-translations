@@ -16911,18 +16911,8 @@ local vars = std.extVar('vars');
   WIPE_KIT_DEFAULT_LORE: {
     ru: [
       ' ',
-      '§7Позволяет купить возможность',
-      '§7брать данный набор неограниченное',
-      '§7количество раз на этом вайпе,',
-      '§7с определенным интервалом',
-      ' ',
     ],
     en: [
-      ' ',
-      '§7Allows to buy the ability',
-      '§7to take this kit unlimited',
-      '§7number of times on this wipe',
-      '§7with an interval',
       ' ',
     ],
   },
