@@ -3257,6 +3257,12 @@ local vars = std.extVar('vars');
     ru: 'Яйцо дельфина',
     en: 'Dolphin egg',
   },
+  VANISH_ENABLE: {
+    ru: '§fРежим невидимости §7- §aвключен'
+  },
+  VANISH_DISABLE: {
+    ru: '§fРежим невидимости §7- §cвыключен'
+  },
   DONATECHAT_ENABLED: {
     ru: '§aВы снова видите донат-чат',
     en: '§aYou can view patron chat again',
