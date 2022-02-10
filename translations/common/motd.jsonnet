@@ -21,7 +21,7 @@
         _kanddy: {
           ru: '§5play.§lKanddyCraft.§5ru §7[1.16 - 1.17] \n§fПерерождение §5§l➠ §6vk.com/kanddycraft',
         },
-        ru: '§e§lThe §a§lVILLLAGE MC )) §f» §fНаш сайт: §cф.net \n§8§k§l| §b1.5.2 §8§k§l| §fя машинка врум-врум'
+        ru: '§e§lThe §a§lVILLLAGE MC))) §f» §fНаш сайт: §cгде? \n§8§k§l| §b1.5.2 §8§k§l| §fУ НАС СТРИМИТ §b§lNEKOGLAI §eСЕЙЧАС!!'
     },
     VK_STATUS_BADGE: {
         _divinecraft: {
